@@ -53,8 +53,10 @@
           "time": "19:00",
           "minutes": 60,
           "task": "Add a second test VM or container and verify isolation",
-          "status": "not_started",
-          "evidence": []
+          "status": "in_progress",
+          "evidence": [
+            "projects/beginner/B06/evidence/network-isolation-notes.md"
+          ]
         },
         {
           "id": "B06-S4",
