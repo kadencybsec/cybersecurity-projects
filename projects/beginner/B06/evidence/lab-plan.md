@@ -110,3 +110,11 @@ The user-provided VMware Fusion screenshot shows the Ubuntu splash screen and th
 **Next:** Disconnect the attached Ubuntu ISO from VMware Fusion's virtual CD/DVD drive, then press Enter in the guest. After a successful login, record `uname -m`, `cat /etc/os-release`, and `ip -brief address` (redact network details if publishing). The 50 GB virtual hard disk must remain connected.
 
 **Evidence status:** Screenshot supplied in chat; observation written to this record. B06-S2 remains open until first boot and system checks succeed.
+
+## B06-S2 first desktop boot (3 November 2026, 17:44)
+
+The user shared a screenshot showing the **Ubuntu 26.04.1 desktop after restarting from the installed virtual disk**, with **Software Updater** visibly running. The progress dialog said *Installing updates* and *Configuring snapd*. This is direct evidence that the Ubuntu graphical environment boots, and that post-installation updates were in progress. It does **not** yet prove those updates finished or verify the installed OS architecture, disk space or network configuration.
+
+**Next checks after Software Updater finishes:** open Terminal and run `uname -m`, `cat /etc/os-release`, `df -h /`, and `ip -br address`. Record the outputs while redacting identifying or network details from screenshots that will be published. If prompted to restart after updates, restart before testing.
+
+**Evidence:** Screenshot supplied in chat, not uploaded to this repository. B06-S2 remains in progress pending terminal verification and first command explanations.
