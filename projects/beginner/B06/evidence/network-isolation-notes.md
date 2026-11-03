@@ -112,3 +112,7 @@ These addresses replaced earlier NAT-subnet addresses in `192.168.16.0/24`. This
 - [ ] Verify in VMware Fusion that both adapters are **Private to my Mac** and no NAT/bridged adapter is also connected
 
 B06-S3 remains **In Progress** until actual command outputs demonstrate peer connectivity and lack of ordinary external routing.
+
+## Final connectivity checks, 3 November 2026
+
+Both virtual machines can ping one another successfully: desktop to server 3 of 3 replies, server to desktop 3 of 3 replies, with no packet loss in either direction. Both external IPv4 route checks report "Network is unreachable". Results support the intended private lab network configuration. The Mac host remains reachable through host-only networking. B06-S3 is complete; snapshot recovery remains for B06-S4. The original screenshot remains in the chat and has not been committed to GitHub.
