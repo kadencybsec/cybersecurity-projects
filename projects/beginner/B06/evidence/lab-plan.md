@@ -96,3 +96,9 @@ The user-provided VMware Fusion **Hard Disk (NVMe)** screenshot displays a **50.
 The user reports that the remaining Mac checks and VMware configuration are in place. The hypervisor choice, ARM64 Ubuntu image, two-VM design, NAT-to-host-only network strategy, and snapshot plan are documented above. The exact macOS version and available host disk-space number were **not shared**, so those values have not been independently verified in this portfolio.
 
 **B06-S1 is complete as a documented design and user-confirmed readiness check.** This does not prove a guest OS has booted or that network isolation/recovery tests succeeded; those belong to B06-S2 through S4.
+
+## B06-S2 installation review (3 November 2026, 17:27)
+
+The user shared Ubuntu's **Ready to install** summary from within VMware Fusion. The selected target was `nvme0n1` with **Erase disk and install Ubuntu**, a FAT32 EFI partition (`nvme0n1p1` mounted at `/boot/efi`), and an ext4 root partition (`nvme0n1p2` mounted at `/`). The default application selection and no guest disk encryption were selected. This is consistent with installing Ubuntu 26.04.1 ARM64 to the newly configured VMware virtual disk. The summary itself did not show capacity; the previous VMware settings screenshot showed a 50 GB virtual disk.
+
+**Evidence status:** Installer configuration reviewed, but Ubuntu installation, first login, networking tests and guest system verification are not yet shown. The screenshot is held in the chat and is not embedded in the repository.
