@@ -29,7 +29,7 @@
           "time": "19:00",
           "minutes": 30,
           "task": "Choose a hypervisor and write an isolation/snapshot checklist",
-          "status": "in_progress",
+          "status": "completed",
           "evidence": [
             "projects/beginner/B06/evidence/lab-plan.md"
           ]
