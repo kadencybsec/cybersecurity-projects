@@ -72,3 +72,21 @@ The user-provided Ubuntu Server **Storage configuration** screenshot confirms th
 A screenshot of the second Ubuntu Server VM shows the Subiquity installer screen **“Installation complete!”**, with **“Reboot Now”** selected. The visible installation log shows bootloader, package, network, and cloud-init configuration steps, and no obvious error is visible. This confirms the installer reported success, **not yet a successful reboot and login from the installed virtual disk**.
 
 **Next verification:** Reboot; disconnect the `ubuntu-26.04.1-live-server-arm64.iso` virtual CD/DVD if prompted; log in; run `hostname`, `uname -m`, `cat /etc/os-release`, `df -h /` and `ip -br address`. Do not mark B06-S3 complete until the second VM can boot and the two-VM host-only network tests have been conducted. The original screenshot remains in the chat and has not been added to GitHub.
+
+## Second VM first boot verified — 3 November 2026, 18:51
+
+The user-provided Ubuntu Server terminal screenshot demonstrates a **successful boot and login** of the second VM. Observed command results:
+
+| Command | Observed result |
+|:--|:--|
+| `hostname` | `lab-target-arm` |
+| `uname -m` | `aarch64` |
+| `cat /etc/os-release` | Ubuntu 26.04.1 LTS (resolute) |
+| `df -h /` | 20G root filesystem; 6.6G used; 12G available; 36% usage |
+| `ip -br address` | `enp2s0` UP; NAT-range IPv4 `192.168.16.130/24` |
+
+The earlier Ubuntu Desktop showed `192.168.16.128/24` while on the VMware NAT network. **These addresses are not proof of host-only isolation.** They must be rechecked after switching VMware adapters to **Private to my Mac**.
+
+**Next actions:** Update this server while NAT is available, shut down both VMs cleanly, set each VM's only connected Network Adapter to Private to my Mac, reboot both, and record `ip -br address`, `ip route`, peer-to-peer `ping -c 3`, and an external-route check. The screenshot remains in the ChatGPT conversation and has not yet been committed as a PNG to the repository.
+
+**B06-S3 remains In Progress** until both machines can communicate on a host-only network and external routing/isolation has been checked.
