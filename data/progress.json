@@ -53,7 +53,7 @@
           "time": "19:00",
           "minutes": 60,
           "task": "Add a second test VM or container and verify isolation",
-          "status": "in_progress",
+          "status": "completed",
           "evidence": [
             "projects/beginner/B06/evidence/network-isolation-notes.md"
           ]
