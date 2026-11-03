@@ -60,3 +60,9 @@ The user shared three screenshots of the new VMware Fusion VM settings. The scre
 The installer screenshot confirms the **VMware virtual NVMe disk is 25.000 GB**. The proposed partitions are **1.049 GB FAT32 EFI** at `/boot/efi`, **2.000 GB ext4** at `/boot`, and an LVM volume group of **21.945 GB**, with an initial **10.972 GB ext4** logical volume for `/`. About 10.972 GB was shown as free inside the LVM volume group.
 
 **Recommendation:** Expand `ubuntu-lv` from roughly 10.972 GB to **20 GB**, leaving about 1.945 GB unallocated in the volume group for flexibility. The user has not yet confirmed making the change. This is a review of the proposed VM disk layout, not proof that Ubuntu Server has finished installing.
+
+## Ubuntu Server storage revised — 3 November 2026, 18:41
+
+The user-provided Ubuntu Server **Storage configuration** screenshot confirms the **25.000 GB VMware Virtual NVMe Disk**, with a **20.000 GB ext4 root logical volume** mounted at `/`, **2.000 GB ext4** mounted at `/boot`, and **1.049 GB FAT32** mounted at `/boot/efi`. The `ubuntu-vg` volume group shows **1.945 GB remaining free space**. Ubuntu Server root logical volume resized to 20 GB as planned.
+
+**Status:** Disk layout verified **before** committing installation. The Ubuntu Server guest has not yet been shown installed or booted. The screenshot was shared in chat; it has not yet been uploaded to the repository.
