@@ -1,0 +1,3656 @@
+{
+  "schema_version": 1,
+  "last_reviewed": "2026-11-03",
+  "programme": "Cybersecurity apprenticeship preparation | 2026-2028",
+  "progress_is_evidence_based": true,
+  "project_count": 70,
+  "step_count": 280,
+  "status_values": [
+    "not_started",
+    "in_progress",
+    "completed",
+    "delayed"
+  ],
+  "projects": [
+    {
+      "id": "B06",
+      "title": "Create a personal cybersecurity lab at home",
+      "sprint": 1,
+      "start": "09 Nov 2026",
+      "end": "14 Nov 2026",
+      "track": "Foundations",
+      "scope": "Isolated virtual machines and snapshots",
+      "deliverable": "Lab diagram, inventory, restore instructions",
+      "steps": [
+        {
+          "id": "B06-S1",
+          "day": "Mon",
+          "date": "09 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Choose a hypervisor and write an isolation/snapshot checklist",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B06-S2",
+          "day": "Tue",
+          "date": "10 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Install one Linux VM and learn basic networking commands",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B06-S3",
+          "day": "Thu",
+          "date": "12 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Add a second test VM or container and verify isolation",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B06-S4",
+          "day": "Sat",
+          "date": "14 Nov",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Take recovery snapshots and document your lab architecture",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B05",
+      "title": "Learn digital forensic analysis skills",
+      "sprint": 2,
+      "start": "16 Nov 2026",
+      "end": "21 Nov 2026",
+      "track": "Blue",
+      "scope": "Work only with provided sample evidence and your own files",
+      "deliverable": "Forensic worksheet with hashes and timeline",
+      "steps": [
+        {
+          "id": "B05-S1",
+          "day": "Mon",
+          "date": "16 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn chain of custody, hashing and timeline basics",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B05-S2",
+          "day": "Tue",
+          "date": "17 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Hash three harmless sample files and compare changes",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B05-S3",
+          "day": "Thu",
+          "date": "19 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Review metadata and reconstruct a toy file-change timeline",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B05-S4",
+          "day": "Sat",
+          "date": "21 Nov",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write an evidence report separating facts from assumptions",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B07",
+      "title": "Practise encrypting files with cryptography",
+      "sprint": 3,
+      "start": "23 Nov 2026",
+      "end": "28 Nov 2026",
+      "track": "Build",
+      "scope": "Use a supported encryption library on dummy files",
+      "deliverable": "Tiny encrypt/decrypt demo and explanation",
+      "steps": [
+        {
+          "id": "B07-S1",
+          "day": "Mon",
+          "date": "23 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define confidentiality, integrity, symmetric and public-key encryption",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B07-S2",
+          "day": "Tue",
+          "date": "24 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read a beginner explanation of AES-GCM and safe key handling",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B07-S3",
+          "day": "Thu",
+          "date": "26 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Encrypt and decrypt a disposable text file with a reputable library",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B07-S4",
+          "day": "Sat",
+          "date": "28 Nov",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Test a wrong key and tampering, then record expected failures",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B12",
+      "title": "Create a two-factor authentication system",
+      "sprint": 4,
+      "start": "30 Nov 2026",
+      "end": "05 Dec 2026",
+      "track": "Build",
+      "scope": "Demo second factor for a disposable local application",
+      "deliverable": "Toy MFA login and test cases",
+      "steps": [
+        {
+          "id": "B12-S1",
+          "day": "Mon",
+          "date": "30 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Compare passwords, OTP apps and passkeys",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B12-S2",
+          "day": "Tue",
+          "date": "01 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Review TOTP at a conceptual level and choose a sample library",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B12-S3",
+          "day": "Thu",
+          "date": "03 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Add an optional test OTP to a toy login using fake users",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B12-S4",
+          "day": "Sat",
+          "date": "05 Dec",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Test wrong codes, expiry and recovery limitations",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B20",
+      "title": "Set up TLS for secure communication",
+      "sprint": 5,
+      "start": "07 Dec 2026",
+      "end": "12 Dec 2026",
+      "track": "Build",
+      "scope": "Configure HTTPS for a local demo server",
+      "deliverable": "Local HTTPS demo and certificate notes",
+      "steps": [
+        {
+          "id": "B20-S1",
+          "day": "Mon",
+          "date": "07 Dec",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn certificates, trust chains and TLS handshake basics",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B20-S2",
+          "day": "Tue",
+          "date": "08 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create or obtain local development certificates",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B20-S3",
+          "day": "Thu",
+          "date": "10 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Enable HTTPS on a toy local web service",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B20-S4",
+          "day": "Sat",
+          "date": "12 Dec",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Inspect certificate details and compare HTTP versus HTTPS",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B11",
+      "title": "Configure firewall rules to block threats",
+      "sprint": 6,
+      "start": "14 Dec 2026",
+      "end": "19 Dec 2026",
+      "track": "Blue",
+      "scope": "Host-based firewall on your test machine",
+      "deliverable": "Firewall rules and controlled test results",
+      "steps": [
+        {
+          "id": "B11-S1",
+          "day": "Mon",
+          "date": "14 Dec",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn inbound, outbound, default deny and rule ordering",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B11-S2",
+          "day": "Tue",
+          "date": "15 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Record an allowed lab connection before changes",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B11-S3",
+          "day": "Thu",
+          "date": "17 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Apply one allow and one deny test rule, then verify results",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B11-S4",
+          "day": "Sat",
+          "date": "19 Dec",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Save rules, rollback steps and a packet-flow diagram",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B09",
+      "title": "Test Wi-Fi security at home",
+      "sprint": 7,
+      "start": "04 Jan 2027",
+      "end": "09 Jan 2027",
+      "track": "Blue",
+      "scope": "Configuration review of a network you own or have permission to manage",
+      "deliverable": "Redacted Wi-Fi security checklist",
+      "steps": [
+        {
+          "id": "B09-S1",
+          "day": "Mon",
+          "date": "04 Jan",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn WPA2/WPA3, guest networks and router firmware basics",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B09-S2",
+          "day": "Tue",
+          "date": "05 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Record settings on your own router without exposing passwords",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B09-S3",
+          "day": "Thu",
+          "date": "07 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Check update status, guest isolation and admin password policy",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B09-S4",
+          "day": "Sat",
+          "date": "09 Jan",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Produce a before/after hardening checklist without publishing secrets",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B10",
+      "title": "Scan networks for vulnerabilities",
+      "sprint": 8,
+      "start": "11 Jan 2027",
+      "end": "16 Jan 2027",
+      "track": "Blue",
+      "scope": "Scan your own VMs on a host-only network",
+      "deliverable": "Scoped findings report and host inventory",
+      "steps": [
+        {
+          "id": "B10-S1",
+          "day": "Mon",
+          "date": "11 Jan",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Document authorised IP range and scope",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B10-S2",
+          "day": "Tue",
+          "date": "12 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Learn how service discovery differs from a vulnerability finding",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B10-S3",
+          "day": "Thu",
+          "date": "14 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Identify open services in your lab and compare to the inventory",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B10-S4",
+          "day": "Sat",
+          "date": "16 Jan",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write a remediation and false-positive explanation",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B15",
+      "title": "Use tools to find system vulnerabilities",
+      "sprint": 9,
+      "start": "18 Jan 2027",
+      "end": "23 Jan 2027",
+      "track": "Blue",
+      "scope": "Defensive vulnerability assessment of a disposable VM",
+      "deliverable": "Vulnerability report with remediation",
+      "steps": [
+        {
+          "id": "B15-S1",
+          "day": "Mon",
+          "date": "18 Jan",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Identify a supported scanner and read its warning labels",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B15-S2",
+          "day": "Tue",
+          "date": "19 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Patch a test VM, then note its package inventory",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B15-S3",
+          "day": "Thu",
+          "date": "21 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Run a scoped audit and verify one issue manually from documentation",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B15-S4",
+          "day": "Sat",
+          "date": "23 Jan",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write remediation priorities and rescan evidence",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B03",
+      "title": "Build a tool to sniff network traffic",
+      "sprint": 10,
+      "start": "25 Jan 2027",
+      "end": "30 Jan 2027",
+      "track": "Blue",
+      "scope": "Analyse only your own lab traffic",
+      "deliverable": "PCAP summary script, test capture and README",
+      "steps": [
+        {
+          "id": "B03-S1",
+          "day": "Mon",
+          "date": "25 Jan",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Identify Ethernet, IP, TCP, UDP and DNS packet fields",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B03-S2",
+          "day": "Tue",
+          "date": "26 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Capture test traffic on your own computer with Wireshark",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B03-S3",
+          "day": "Thu",
+          "date": "28 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Write a small Python summary of a supplied or self-captured PCAP",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B03-S4",
+          "day": "Sat",
+          "date": "30 Jan",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Report protocols, unusual patterns and limits of visibility",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B16",
+      "title": "Practise detecting DNS spoofing attacks",
+      "sprint": 11,
+      "start": "01 Feb 2027",
+      "end": "06 Feb 2027",
+      "track": "Blue",
+      "scope": "Detect simulated DNS anomalies in supplied data",
+      "deliverable": "DNS comparison notebook",
+      "steps": [
+        {
+          "id": "B16-S1",
+          "day": "Mon",
+          "date": "01 Feb",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn normal DNS queries, responses, caching and TTL",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B16-S2",
+          "day": "Tue",
+          "date": "02 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Capture legitimate lab DNS lookup patterns",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B16-S3",
+          "day": "Thu",
+          "date": "04 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare toy abnormal DNS records to a known-good baseline",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B16-S4",
+          "day": "Sat",
+          "date": "06 Feb",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Draft a detection heuristic and discuss false alarms",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B17",
+      "title": "Study how antivirus software works",
+      "sprint": 12,
+      "start": "08 Feb 2027",
+      "end": "13 Feb 2027",
+      "track": "Blue",
+      "scope": "Conceptual and benign signature-scanning demonstration",
+      "deliverable": "Toy scanner and explainer",
+      "steps": [
+        {
+          "id": "B17-S1",
+          "day": "Mon",
+          "date": "08 Feb",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Compare signatures, heuristics, reputation and behaviour monitoring",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B17-S2",
+          "day": "Tue",
+          "date": "09 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Review antivirus test-file guidance and safe samples",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B17-S3",
+          "day": "Thu",
+          "date": "11 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a toy scanner for harmless marker strings in text files",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B17-S4",
+          "day": "Sat",
+          "date": "13 Feb",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Explain quarantine, updates, false positives and limits",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B18",
+      "title": "Build a tool to detect unusual activities",
+      "sprint": 13,
+      "start": "15 Feb 2027",
+      "end": "20 Feb 2027",
+      "track": "Blue",
+      "scope": "Anomaly detection on synthetic logs",
+      "deliverable": "Python anomaly detector and test logs",
+      "steps": [
+        {
+          "id": "B18-S1",
+          "day": "Mon",
+          "date": "15 Feb",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define normal versus suspicious sample log patterns",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B18-S2",
+          "day": "Tue",
+          "date": "16 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Generate a small CSV of made-up login and process events",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B18-S3",
+          "day": "Thu",
+          "date": "18 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Write rules to flag bursts, unexpected times or new users",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B18-S4",
+          "day": "Sat",
+          "date": "20 Feb",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Measure false positives and describe next improvements",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B13",
+      "title": "Build a secure web application",
+      "sprint": 14,
+      "start": "22 Feb 2027",
+      "end": "27 Feb 2027",
+      "track": "Build",
+      "scope": "Tiny web application with security controls",
+      "deliverable": "Demo app, security checklist, README",
+      "steps": [
+        {
+          "id": "B13-S1",
+          "day": "Mon",
+          "date": "22 Feb",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Pick a 2-page app and document inputs and assets",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B13-S2",
+          "day": "Tue",
+          "date": "23 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Learn input validation, session handling and password storage",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B13-S3",
+          "day": "Thu",
+          "date": "25 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build login and validation using a supported web framework",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B13-S4",
+          "day": "Sat",
+          "date": "27 Feb",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Run a checklist for input errors, access checks and secure defaults",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B25",
+      "title": "Create a browser extension for security",
+      "sprint": 15,
+      "start": "01 Mar 2027",
+      "end": "06 Mar 2027",
+      "track": "Build",
+      "scope": "Privacy-friendly extension that audits page metadata locally",
+      "deliverable": "Extension code, screenshots and manifest explanation",
+      "steps": [
+        {
+          "id": "B25-S1",
+          "day": "Mon",
+          "date": "01 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Read browser extension permission and store rules",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B25-S2",
+          "day": "Tue",
+          "date": "02 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Design a simple visible HTTPS/site-info indicator",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B25-S3",
+          "day": "Thu",
+          "date": "04 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a minimal extension with narrowly scoped permissions",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B25-S4",
+          "day": "Sat",
+          "date": "06 Mar",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Test on safe sites and document permissions used",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B08",
+      "title": "Simulate a phishing campaign for awareness",
+      "sprint": 16,
+      "start": "08 Mar 2027",
+      "end": "13 Mar 2027",
+      "track": "Awareness",
+      "scope": "Non-sending mock email examples for awareness only",
+      "deliverable": "Awareness poster, mock email and quiz",
+      "steps": [
+        {
+          "id": "B08-S1",
+          "day": "Mon",
+          "date": "08 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Collect public examples and identify persuasion techniques",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B08-S2",
+          "day": "Tue",
+          "date": "09 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Design a fake example email that cannot be sent to real users",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B08-S3",
+          "day": "Thu",
+          "date": "11 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create a one-page spot-the-warning-signs quiz",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B08-S4",
+          "day": "Sat",
+          "date": "13 Mar",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Test the quiz with a willing friend and write improvement notes",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B21",
+      "title": "Learn how zero-day exploits work",
+      "sprint": 17,
+      "start": "15 Mar 2027",
+      "end": "20 Mar 2027",
+      "track": "Research",
+      "scope": "Research and explain disclosures without exploit reproduction",
+      "deliverable": "Zero-day case-study timeline",
+      "steps": [
+        {
+          "id": "B21-S1",
+          "day": "Mon",
+          "date": "15 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define vulnerability, exploit, zero-day and patch window",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B21-S2",
+          "day": "Tue",
+          "date": "16 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read a published CVE case study and timeline",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B21-S3",
+          "day": "Thu",
+          "date": "18 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Map how defenders could detect and contain the issue",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B21-S4",
+          "day": "Sat",
+          "date": "20 Mar",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write a 1-page case study with dated source links",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B22",
+      "title": "Use anonymous tools like Tor for privacy",
+      "sprint": 18,
+      "start": "22 Mar 2027",
+      "end": "27 Mar 2027",
+      "track": "Research",
+      "scope": "Compare privacy claims and limitations without evasion guidance",
+      "deliverable": "Privacy threat-model memo",
+      "steps": [
+        {
+          "id": "B22-S1",
+          "day": "Mon",
+          "date": "22 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define anonymity, privacy, confidentiality and threat models",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B22-S2",
+          "day": "Tue",
+          "date": "23 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read Tor Project's documented architecture and limitations",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B22-S3",
+          "day": "Thu",
+          "date": "25 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare browser privacy settings using public references",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B22-S4",
+          "day": "Sat",
+          "date": "27 Mar",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write an ethical-usage threat model and decision table",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B01",
+      "title": "Set up a basic honeypot to catch attackers",
+      "sprint": 19,
+      "start": "29 Mar 2027",
+      "end": "03 Apr 2027",
+      "track": "Blue",
+      "scope": "A local or sandbox honeypot using synthetic visitors only",
+      "deliverable": "Topology, log screenshots, lessons learned",
+      "steps": [
+        {
+          "id": "B01-S1",
+          "day": "Mon",
+          "date": "29 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Draw an isolated network diagram and define what activity may be",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B01-S2",
+          "day": "Tue",
+          "date": "30 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Study service banners, connection logs and what makes a honeypot safe",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B01-S3",
+          "day": "Thu",
+          "date": "01 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Run a local sample service and record benign connection attempts",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B01-S4",
+          "day": "Sat",
+          "date": "03 Apr",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Export five example log entries and explain what they show",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B23",
+      "title": "Set up a honeypot to gather threat data",
+      "sprint": 20,
+      "start": "19 Apr 2027",
+      "end": "24 Apr 2027",
+      "track": "Blue",
+      "scope": "Extend the earlier closed lab with structured telemetry",
+      "deliverable": "Telemetry dashboard and data dictionary",
+      "steps": [
+        {
+          "id": "B23-S1",
+          "day": "Mon",
+          "date": "19 Apr",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Review B01 and determine missing fields",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B23-S2",
+          "day": "Tue",
+          "date": "20 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Add timestamp, source label and service type to synthetic records",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B23-S3",
+          "day": "Thu",
+          "date": "22 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a basic dashboard or summary from sample honeypot logs",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B23-S4",
+          "day": "Sat",
+          "date": "24 Apr",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Explain retention, isolation and false attribution risks",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B02",
+      "title": "Create a simple password cracker",
+      "sprint": 21,
+      "start": "26 Apr 2027",
+      "end": "01 May 2027",
+      "track": "Foundations",
+      "scope": "Offline password-strength audit on dummy passwords and self-generated test hashes",
+      "deliverable": "Dummy test dataset, short password-audit report",
+      "steps": [
+        {
+          "id": "B02-S1",
+          "day": "Mon",
+          "date": "26 Apr",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Write rules for authorised, offline testing and generate dummy test data",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B02-S2",
+          "day": "Tue",
+          "date": "27 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Learn hashing, salting, password entropy and rate limits",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B02-S3",
+          "day": "Thu",
+          "date": "29 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare a small toy dictionary against your own example hashes in a closed",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B02-S4",
+          "day": "Sat",
+          "date": "01 May",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Document why strong unique passwords and MFA defeat common guessing",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B24",
+      "title": "Practise cracking passwords with GPUs",
+      "sprint": 22,
+      "start": "03 May 2027",
+      "end": "08 May 2027",
+      "track": "Research",
+      "scope": "Research offline benchmarking on self-generated synthetic hashes only",
+      "deliverable": "Benchmark chart and defence recommendations",
+      "steps": [
+        {
+          "id": "B24-S1",
+          "day": "Mon",
+          "date": "03 May",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Explain CPU vs GPU parallelism and authorised-use limits",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B24-S2",
+          "day": "Tue",
+          "date": "04 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Review a public benchmark comparison rather than live cracking",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B24-S3",
+          "day": "Thu",
+          "date": "06 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Time a toy hashing workload on available safe hardware",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B24-S4",
+          "day": "Sat",
+          "date": "08 May",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Plot speed versus password-strength implications",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B19",
+      "title": "Analyse malware to understand its behaviour",
+      "sprint": 23,
+      "start": "10 May 2027",
+      "end": "15 May 2027",
+      "track": "Blue",
+      "scope": "Static analysis of published reports or inert lab samples; no live malware execution",
+      "deliverable": "Static-analysis worksheet and IOC table",
+      "steps": [
+        {
+          "id": "B19-S1",
+          "day": "Mon",
+          "date": "10 May",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define isolation and safe sample-handling requirements",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B19-S2",
+          "day": "Tue",
+          "date": "11 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read one public malware analysis report and extract indicators",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B19-S3",
+          "day": "Thu",
+          "date": "13 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Analyse a harmless sample file's metadata and strings",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B19-S4",
+          "day": "Sat",
+          "date": "15 May",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write a behavioural summary and defensive detections",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B04",
+      "title": "Make a basic keylogger for practice",
+      "sprint": 24,
+      "start": "17 May 2027",
+      "end": "22 May 2027",
+      "track": "Defence",
+      "scope": "Consent-based keystroke event visualiser in your own test window, not background",
+      "deliverable": "Visible event-counter demo and risk explanation",
+      "steps": [
+        {
+          "id": "B04-S1",
+          "day": "Mon",
+          "date": "17 May",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define consent boundary and exclude passwords or hidden collection",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B04-S2",
+          "day": "Tue",
+          "date": "18 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Study GUI event handling and why keylogging is a threat",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B04-S3",
+          "day": "Thu",
+          "date": "20 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a visible text-box event counter using your own keystrokes",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B04-S4",
+          "day": "Sat",
+          "date": "22 May",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Demonstrate stopping, clearing and never persisting sensitive inputs",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "B14",
+      "title": "Set up and use Snort for intrusion detection",
+      "sprint": 25,
+      "start": "14 Jun 2027",
+      "end": "19 Jun 2027",
+      "track": "Blue",
+      "scope": "Use documented sample signatures and test traffic",
+      "deliverable": "Rule example and alert analysis",
+      "steps": [
+        {
+          "id": "B14-S1",
+          "day": "Mon",
+          "date": "14 Jun",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn signatures, alerts and false positives",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B14-S2",
+          "day": "Tue",
+          "date": "15 Jun",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Install Snort or Suricata in an isolated lab",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B14-S3",
+          "day": "Thu",
+          "date": "17 Jun",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Replay authorised sample traffic and inspect test alerts",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "B14-S4",
+          "day": "Sat",
+          "date": "19 Jun",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Tune one harmless rule and publish a detection write-up",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I27",
+      "title": "Encrypt data with full disk encryption",
+      "sprint": 26,
+      "start": "21 Jun 2027",
+      "end": "26 Jun 2027",
+      "track": "Blue",
+      "scope": "Encryption setup on a disposable VM only",
+      "deliverable": "Disk encryption setup notes, redacted proof",
+      "steps": [
+        {
+          "id": "I27-S1",
+          "day": "Mon",
+          "date": "21 Jun",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Compare device encryption and file encryption",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I27-S2",
+          "day": "Tue",
+          "date": "22 Jun",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create a VM snapshot and confirm a recovery route",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I27-S3",
+          "day": "Thu",
+          "date": "24 Jun",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Enable disk encryption on the test VM using supported tools",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I27-S4",
+          "day": "Sat",
+          "date": "26 Jun",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Reboot, verify recovery process and write a user guide",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I35",
+      "title": "Build a PKI (public key infrastructure)",
+      "sprint": 27,
+      "start": "28 Jun 2027",
+      "end": "03 Jul 2027",
+      "track": "Build",
+      "scope": "Minimal internal certificate authority for lab services",
+      "deliverable": "Certificate-chain diagram and lab instructions",
+      "steps": [
+        {
+          "id": "I35-S1",
+          "day": "Mon",
+          "date": "28 Jun",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Draw root CA, server cert and trust path",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I35-S2",
+          "day": "Tue",
+          "date": "29 Jun",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Generate demo keys and certificates with lab-only names",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I35-S3",
+          "day": "Thu",
+          "date": "01 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Verify a local service certificate and expiration checks",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I35-S4",
+          "day": "Sat",
+          "date": "03 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write renewal, revocation and secret-protection notes",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I34",
+      "title": "Make a secure messaging app",
+      "sprint": 28,
+      "start": "05 Jul 2027",
+      "end": "10 Jul 2027",
+      "track": "Build",
+      "scope": "Toy encrypted messaging between two test users",
+      "deliverable": "Local encrypted demo and threat model",
+      "steps": [
+        {
+          "id": "I34-S1",
+          "day": "Mon",
+          "date": "05 Jul",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define what secure messaging does and does not guarantee",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I34-S2",
+          "day": "Tue",
+          "date": "06 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Review authenticated encryption and key-exchange at a conceptual level",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I34-S3",
+          "day": "Thu",
+          "date": "08 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a local chat mock-up using a supported crypto library",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I34-S4",
+          "day": "Sat",
+          "date": "10 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Test message tampering and explain missing production features",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I38",
+      "title": "Build custom tools for security testing",
+      "sprint": 29,
+      "start": "12 Jul 2027",
+      "end": "17 Jul 2027",
+      "track": "Build",
+      "scope": "Make a safe configuration checker for your own lab",
+      "deliverable": "Security audit CLI and unit tests",
+      "steps": [
+        {
+          "id": "I38-S1",
+          "day": "Mon",
+          "date": "12 Jul",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Identify one repetitive audit task and required inputs",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I38-S2",
+          "day": "Tue",
+          "date": "13 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Sketch Python CLI arguments and output format",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I38-S3",
+          "day": "Thu",
+          "date": "15 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Implement a read-only check of settings or logs",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I38-S4",
+          "day": "Sat",
+          "date": "17 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Add tests, help text and a clear permissions statement",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I43",
+      "title": "Create a custom firewall",
+      "sprint": 30,
+      "start": "19 Jul 2027",
+      "end": "24 Jul 2027",
+      "track": "Build",
+      "scope": "Read-only rule engine or packet-decision simulator",
+      "deliverable": "Firewall simulator with test suite",
+      "steps": [
+        {
+          "id": "I43-S1",
+          "day": "Mon",
+          "date": "19 Jul",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn rule priority, statefulness and default rules",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I43-S2",
+          "day": "Tue",
+          "date": "20 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Design a JSON rule format using toy packet metadata",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I43-S3",
+          "day": "Thu",
+          "date": "22 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Write a Python simulator for allow/deny decisions",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I43-S4",
+          "day": "Sat",
+          "date": "24 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Test edge cases and show the decisions in a table",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I29",
+      "title": "Test secure routing protocols",
+      "sprint": 31,
+      "start": "09 Aug 2027",
+      "end": "14 Aug 2027",
+      "track": "Blue",
+      "scope": "Review and simulate routing protections without touching live routers",
+      "deliverable": "Network simulation diagram and findings",
+      "steps": [
+        {
+          "id": "I29-S1",
+          "day": "Mon",
+          "date": "09 Aug",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn routing trust, BGP and OSPF at a high level",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I29-S2",
+          "day": "Tue",
+          "date": "10 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a tiny simulated topology or diagram",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I29-S3",
+          "day": "Thu",
+          "date": "12 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare normal and misconfigured route examples",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I29-S4",
+          "day": "Sat",
+          "date": "14 Aug",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write controls and monitoring suggestions",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I44",
+      "title": "Research IoT device security risks",
+      "sprint": 32,
+      "start": "16 Aug 2027",
+      "end": "21 Aug 2027",
+      "track": "Blue",
+      "scope": "Household security review without probing third-party equipment",
+      "deliverable": "IoT risk matrix",
+      "steps": [
+        {
+          "id": "I44-S1",
+          "day": "Mon",
+          "date": "16 Aug",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Inventory a few devices you own without exposing identifiers",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I44-S2",
+          "day": "Tue",
+          "date": "17 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Research default passwords, patching and telemetry risks",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I44-S3",
+          "day": "Thu",
+          "date": "19 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Map each device to a basic risk and mitigation checklist",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I44-S4",
+          "day": "Sat",
+          "date": "21 Aug",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write a buyer's security checklist for future devices",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I33",
+      "title": "Simulate a DDoS attack in a safe environment",
+      "sprint": 33,
+      "start": "23 Aug 2027",
+      "end": "28 Aug 2027",
+      "track": "Blue",
+      "scope": "Safe rate-limiting demo on localhost with tiny synthetic load; no network flooding",
+      "deliverable": "Local load observation and mitigation notes",
+      "steps": [
+        {
+          "id": "I33-S1",
+          "day": "Mon",
+          "date": "23 Aug",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define precise localhost-only scope and minimal request budget",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I33-S2",
+          "day": "Tue",
+          "date": "24 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read how service overload and rate limits work",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I33-S3",
+          "day": "Thu",
+          "date": "26 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Send a small controlled sequence to your own toy server",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I33-S4",
+          "day": "Sat",
+          "date": "28 Aug",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Chart responses and document defensive rate-limiting options",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I26",
+      "title": "Build a malware analysis sandbox",
+      "sprint": 34,
+      "start": "30 Aug 2027",
+      "end": "04 Sep 2027",
+      "track": "Blue",
+      "scope": "Architecture-only or benign-file sandbox with snapshots",
+      "deliverable": "Sandbox design and benign run report",
+      "steps": [
+        {
+          "id": "I26-S1",
+          "day": "Mon",
+          "date": "30 Aug",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Draw isolation, networking and revert requirements",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I26-S2",
+          "day": "Tue",
+          "date": "31 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Study process monitoring and sample provenance",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I26-S3",
+          "day": "Thu",
+          "date": "02 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Run a harmless test program and record filesystem changes",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I26-S4",
+          "day": "Sat",
+          "date": "04 Sep",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Restore the VM and document the forensic workflow",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I31",
+      "title": "Study rootkits and how to remove them",
+      "sprint": 35,
+      "start": "06 Sep 2027",
+      "end": "11 Sep 2027",
+      "track": "Blue",
+      "scope": "Detection and incident-response exercise using benign fixtures",
+      "deliverable": "Rootkit detection checklist and response plan",
+      "steps": [
+        {
+          "id": "I31-S1",
+          "day": "Mon",
+          "date": "06 Sep",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Describe user-mode and kernel-mode persistence concepts",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I31-S2",
+          "day": "Tue",
+          "date": "07 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read a public forensic case study and list indicators",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I31-S3",
+          "day": "Thu",
+          "date": "09 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Inspect baseline system integrity on a clean VM",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I31-S4",
+          "day": "Sat",
+          "date": "11 Sep",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write a hypothetical containment and restoration playbook",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I47",
+      "title": "Study how to stop in-memory attacks",
+      "sprint": 36,
+      "start": "13 Sep 2027",
+      "end": "18 Sep 2027",
+      "track": "Blue",
+      "scope": "Defensive alert triage with example process telemetry",
+      "deliverable": "In-memory detection playbook",
+      "steps": [
+        {
+          "id": "I47-S1",
+          "day": "Mon",
+          "date": "13 Sep",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn processes, memory and suspicious process chains",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I47-S2",
+          "day": "Tue",
+          "date": "14 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read a public attack-technique write-up at a high level",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I47-S3",
+          "day": "Thu",
+          "date": "16 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create mock process logs and simple suspicion rules",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I47-S4",
+          "day": "Sat",
+          "date": "18 Sep",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Draft memory-incident triage questions and containment steps",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I48",
+      "title": "Detect kernel backdoors in systems",
+      "sprint": 37,
+      "start": "20 Sep 2027",
+      "end": "25 Sep 2027",
+      "track": "Blue",
+      "scope": "Baseline-integrity checks and defensive indicators only",
+      "deliverable": "Kernel-integrity checklist",
+      "steps": [
+        {
+          "id": "I48-S1",
+          "day": "Mon",
+          "date": "20 Sep",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn kernel responsibilities and trusted module concepts",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I48-S2",
+          "day": "Tue",
+          "date": "21 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Record baseline files/modules in a clean lab VM",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I48-S3",
+          "day": "Thu",
+          "date": "23 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare baseline with a benign authorised configuration change",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I48-S4",
+          "day": "Sat",
+          "date": "25 Sep",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write integrity-monitoring rules and caveats",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I50",
+      "title": "Practise making and removing rootkits",
+      "sprint": 38,
+      "start": "27 Sep 2027",
+      "end": "02 Oct 2027",
+      "track": "Blue",
+      "scope": "Defensive persistence-detection simulation with benign startup entries; no rootkit",
+      "deliverable": "Persistence-detection exercise log",
+      "steps": [
+        {
+          "id": "I50-S1",
+          "day": "Mon",
+          "date": "27 Sep",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define what persistent compromise indicators would look like",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I50-S2",
+          "day": "Tue",
+          "date": "28 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create an ordinary visible test startup entry in a disposable VM",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I50-S3",
+          "day": "Thu",
+          "date": "30 Sep",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Locate and remove that authorised test entry, then restore baseline",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I50-S4",
+          "day": "Sat",
+          "date": "02 Oct",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Document detection and cleanup steps without stealth mechanisms",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I46",
+      "title": "Practise malware obfuscation techniques",
+      "sprint": 39,
+      "start": "04 Oct 2027",
+      "end": "09 Oct 2027",
+      "track": "Research",
+      "scope": "Compare obfuscation detection on harmless scripts only",
+      "deliverable": "Harmless-code analysis comparison",
+      "steps": [
+        {
+          "id": "I46-S1",
+          "day": "Mon",
+          "date": "04 Oct",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn what obfuscation and packing mean for defenders",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I46-S2",
+          "day": "Tue",
+          "date": "05 Oct",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare transparent and deliberately confusing toy code",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I46-S3",
+          "day": "Thu",
+          "date": "07 Oct",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Use static analysis or manual review to recover basic meaning",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I46-S4",
+          "day": "Sat",
+          "date": "09 Oct",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write detection limitations and secure coding takeaways",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I49",
+      "title": "Study side-channel attack methods",
+      "sprint": 40,
+      "start": "11 Oct 2027",
+      "end": "16 Oct 2027",
+      "track": "Research",
+      "scope": "Research timing/leakage and defensive design",
+      "deliverable": "Side-channel explainer and plot",
+      "steps": [
+        {
+          "id": "I49-S1",
+          "day": "Mon",
+          "date": "11 Oct",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Study the difference between data and side-channel leakage",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I49-S2",
+          "day": "Tue",
+          "date": "12 Oct",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read a published timing-attack explanation",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I49-S3",
+          "day": "Thu",
+          "date": "14 Oct",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create a safe conceptual demonstration using dummy timings",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I49-S4",
+          "day": "Sat",
+          "date": "16 Oct",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Report mitigations and measurement uncertainty",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I40",
+      "title": "Reverse-engineer firmware to find flaws",
+      "sprint": 41,
+      "start": "18 Oct 2027",
+      "end": "23 Oct 2027",
+      "track": "Research",
+      "scope": "Inspect a public training firmware image using static tools",
+      "deliverable": "Firmware structure diagram and report",
+      "steps": [
+        {
+          "id": "I40-S1",
+          "day": "Mon",
+          "date": "18 Oct",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Read device architecture and firmware file-format basics",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I40-S2",
+          "day": "Tue",
+          "date": "19 Oct",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Choose a licensed training image and note provenance",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I40-S3",
+          "day": "Thu",
+          "date": "21 Oct",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Inspect metadata and file structure without flashing devices",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I40-S4",
+          "day": "Sat",
+          "date": "23 Oct",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Produce a security-review checklist with observations",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I41",
+      "title": "Study industrial control system security",
+      "sprint": 42,
+      "start": "25 Oct 2027",
+      "end": "30 Oct 2027",
+      "track": "Research",
+      "scope": "Use public ICS scenarios or an offline simulator",
+      "deliverable": "ICS risk register and zone diagram",
+      "steps": [
+        {
+          "id": "I41-S1",
+          "day": "Mon",
+          "date": "25 Oct",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define safety, availability and segmentation needs",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I41-S2",
+          "day": "Tue",
+          "date": "26 Oct",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Study basic PLC/SCADA architecture and common boundaries",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I41-S3",
+          "day": "Thu",
+          "date": "28 Oct",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Map risks on a purely hypothetical plant topology",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I41-S4",
+          "day": "Sat",
+          "date": "30 Oct",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Recommend non-invasive controls and monitoring",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I42",
+      "title": "Analyse malware used by nation-states",
+      "sprint": 43,
+      "start": "01 Nov 2027",
+      "end": "06 Nov 2027",
+      "track": "Threat Intel",
+      "scope": "Public threat-report comparison only",
+      "deliverable": "Threat-report comparison matrix",
+      "steps": [
+        {
+          "id": "I42-S1",
+          "day": "Mon",
+          "date": "01 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Choose two vendor threat reports with clear dates",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I42-S2",
+          "day": "Tue",
+          "date": "02 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Extract observed tactics and affected sectors",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I42-S3",
+          "day": "Thu",
+          "date": "04 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a defensive ATT&CK-style mapping from public descriptions",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I42-S4",
+          "day": "Sat",
+          "date": "06 Nov",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Assess source confidence and avoid unsupported attribution",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I32",
+      "title": "Build a dark web scraper for research",
+      "sprint": 44,
+      "start": "08 Nov 2027",
+      "end": "13 Nov 2027",
+      "track": "Threat Intel",
+      "scope": "Use public, legal threat-intel feeds instead of dark-web scraping",
+      "deliverable": "Public-feed collection script and ethics note",
+      "steps": [
+        {
+          "id": "I32-S1",
+          "day": "Mon",
+          "date": "08 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define legal, privacy and content-handling requirements",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I32-S2",
+          "day": "Tue",
+          "date": "09 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Select a documented public security advisory/RSS feed",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I32-S3",
+          "day": "Thu",
+          "date": "11 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a small feed collector that stores advisory metadata",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I32-S4",
+          "day": "Sat",
+          "date": "13 Nov",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Summarise trends and cite original public sources",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I36",
+      "title": "Research zero-day vulnerabilities",
+      "sprint": 45,
+      "start": "15 Nov 2027",
+      "end": "20 Nov 2027",
+      "track": "Research",
+      "scope": "Compare disclosure and mitigation patterns across public case studies",
+      "deliverable": "Two-case research brief",
+      "steps": [
+        {
+          "id": "I36-S1",
+          "day": "Mon",
+          "date": "15 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Select two well-documented disclosed vulnerabilities",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I36-S2",
+          "day": "Tue",
+          "date": "16 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create a comparison table of impact and disclosure timelines",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I36-S3",
+          "day": "Thu",
+          "date": "18 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Map common defensive controls without reproducing exploits",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I36-S4",
+          "day": "Sat",
+          "date": "20 Nov",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Publish lessons and source references",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I37",
+      "title": "Audit smart contracts for security issues",
+      "sprint": 46,
+      "start": "22 Nov 2027",
+      "end": "27 Nov 2027",
+      "track": "Research",
+      "scope": "Review audited sample contracts and known-pattern test cases",
+      "deliverable": "Smart-contract checklist and audit memo",
+      "steps": [
+        {
+          "id": "I37-S1",
+          "day": "Mon",
+          "date": "22 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn smart-contract trust assumptions and typical bug classes",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I37-S2",
+          "day": "Tue",
+          "date": "23 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read a deliberately simple public example contract",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I37-S3",
+          "day": "Thu",
+          "date": "25 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Apply a checklist to identify risky logic in the example",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I37-S4",
+          "day": "Sat",
+          "date": "27 Nov",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write a non-exploit audit summary and fixes",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I30",
+      "title": "Create a secure cryptocurrency wallet",
+      "sprint": 47,
+      "start": "29 Nov 2027",
+      "end": "04 Dec 2027",
+      "track": "Build",
+      "scope": "Educational key-storage mock-up with fake assets only",
+      "deliverable": "Mock wallet prototype and threat model",
+      "steps": [
+        {
+          "id": "I30-S1",
+          "day": "Mon",
+          "date": "29 Nov",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Study private/public keys, seed storage and wallet attacks",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I30-S2",
+          "day": "Tue",
+          "date": "30 Nov",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Draw a threat model for a wallet without handling real funds",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I30-S3",
+          "day": "Thu",
+          "date": "02 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a simple fake-transaction UI or address validator",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I30-S4",
+          "day": "Sat",
+          "date": "04 Dec",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Test error handling and document key-management risks",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I28",
+      "title": "Use machine learning for intrusion detection",
+      "sprint": 48,
+      "start": "06 Dec 2027",
+      "end": "11 Dec 2027",
+      "track": "Data",
+      "scope": "Small classifier on public or synthetic labelled traffic data",
+      "deliverable": "Notebook, confusion matrix and model card",
+      "steps": [
+        {
+          "id": "I28-S1",
+          "day": "Mon",
+          "date": "06 Dec",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define features and choose a permissible dataset",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I28-S2",
+          "day": "Tue",
+          "date": "07 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Make training/test split and baseline rule-based score",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I28-S3",
+          "day": "Thu",
+          "date": "09 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Train a simple classifier and calculate precision and recall",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I28-S4",
+          "day": "Sat",
+          "date": "11 Dec",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Explain dataset leakage and why false positives matter",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I39",
+      "title": "Detect threats using AI",
+      "sprint": 49,
+      "start": "13 Dec 2027",
+      "end": "18 Dec 2027",
+      "track": "Data",
+      "scope": "Evaluate an AI-assisted alert summary using synthetic logs",
+      "deliverable": "Evaluation report and synthetic dataset",
+      "steps": [
+        {
+          "id": "I39-S1",
+          "day": "Mon",
+          "date": "13 Dec",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define supported alert types and data privacy rules",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I39-S2",
+          "day": "Tue",
+          "date": "14 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Generate examples with known ground-truth labels",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I39-S3",
+          "day": "Thu",
+          "date": "16 Dec",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a classifier or summarisation prototype",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I39-S4",
+          "day": "Sat",
+          "date": "18 Dec",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Measure errors and record where human review is necessary",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "I45",
+      "title": "Design scenarios for a cyber range",
+      "sprint": 50,
+      "start": "17 Jan 2028",
+      "end": "22 Jan 2028",
+      "track": "Blue",
+      "scope": "Write a defender-focused lab scenario with mock evidence",
+      "deliverable": "Reusable cyber-range scenario pack",
+      "steps": [
+        {
+          "id": "I45-S1",
+          "day": "Mon",
+          "date": "17 Jan",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Choose roles, goal, environment and permitted actions",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I45-S2",
+          "day": "Tue",
+          "date": "18 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create synthetic alert logs and a short incident story",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I45-S3",
+          "day": "Thu",
+          "date": "20 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Write participant tasks and scoring criteria",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "I45-S4",
+          "day": "Sat",
+          "date": "22 Jan",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Ask a friend to run it and capture improvements",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A51",
+      "title": "Monitor cloud security systems",
+      "sprint": 51,
+      "start": "24 Jan 2028",
+      "end": "29 Jan 2028",
+      "track": "Cloud",
+      "scope": "Audit a free-tier sandbox or example cloud configuration",
+      "deliverable": "Cloud-monitoring checklist and sample alerts",
+      "steps": [
+        {
+          "id": "A51-S1",
+          "day": "Mon",
+          "date": "24 Jan",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Choose cloud IAM/logging basics and cost limits",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A51-S2",
+          "day": "Tue",
+          "date": "25 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create a no-cost example account only if eligible, otherwise use sample data",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A51-S3",
+          "day": "Thu",
+          "date": "27 Jan",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Review sign-in events and privilege-change examples",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A51-S4",
+          "day": "Sat",
+          "date": "29 Jan",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Build a monitoring checklist with alert priorities",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A52",
+      "title": "Build a zero-trust security model",
+      "sprint": 52,
+      "start": "31 Jan 2028",
+      "end": "05 Feb 2028",
+      "track": "Architecture",
+      "scope": "Architecture proposal for a fictional small company",
+      "deliverable": "Zero-trust architecture diagram",
+      "steps": [
+        {
+          "id": "A52-S1",
+          "day": "Mon",
+          "date": "31 Jan",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Map users, devices, apps and sensitive data",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A52-S2",
+          "day": "Tue",
+          "date": "01 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Study least privilege, strong identity and continuous verification",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A52-S3",
+          "day": "Thu",
+          "date": "03 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Draw trust boundaries and conditional access rules",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A52-S4",
+          "day": "Sat",
+          "date": "05 Feb",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Evaluate three access scenarios against the design",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A56",
+      "title": "Build a dashboard using Splunk for logs",
+      "sprint": 53,
+      "start": "07 Feb 2028",
+      "end": "12 Feb 2028",
+      "track": "Blue",
+      "scope": "Visualise synthetic authentication or web logs",
+      "deliverable": "Dashboard screenshots and data schema",
+      "steps": [
+        {
+          "id": "A56-S1",
+          "day": "Mon",
+          "date": "07 Feb",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Choose synthetic dataset and dashboard questions",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A56-S2",
+          "day": "Tue",
+          "date": "08 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Learn basic search queries in a free lab or equivalent open tool",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A56-S3",
+          "day": "Thu",
+          "date": "10 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build panels for activity volume and flagged events",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A56-S4",
+          "day": "Sat",
+          "date": "12 Feb",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Check filters and publish screenshots with no personal data",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A57",
+      "title": "Research new threat intelligence methods",
+      "sprint": 54,
+      "start": "14 Feb 2028",
+      "end": "19 Feb 2028",
+      "track": "Threat Intel",
+      "scope": "Compare public feed quality and evidence confidence",
+      "deliverable": "Threat-intel source scorecard",
+      "steps": [
+        {
+          "id": "A57-S1",
+          "day": "Mon",
+          "date": "14 Feb",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Choose two legal feeds or vulnerability databases",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A57-S2",
+          "day": "Tue",
+          "date": "15 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create source-quality criteria: timeliness, provenance, false positives",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A57-S3",
+          "day": "Thu",
+          "date": "17 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a table of recent advisory categories",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A57-S4",
+          "day": "Sat",
+          "date": "19 Feb",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Propose a repeatable weekly intelligence digest method",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A55",
+      "title": "Study cybersecurity risks in social media",
+      "sprint": 55,
+      "start": "21 Feb 2028",
+      "end": "26 Feb 2028",
+      "track": "Awareness",
+      "scope": "Privacy and account-security review",
+      "deliverable": "Social-media security guide",
+      "steps": [
+        {
+          "id": "A55-S1",
+          "day": "Mon",
+          "date": "21 Feb",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Threat-model a fictional student's online accounts",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A55-S2",
+          "day": "Tue",
+          "date": "22 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Assess recovery settings, phishing, oversharing and privacy controls",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A55-S3",
+          "day": "Thu",
+          "date": "24 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create a safe configuration checklist for common accounts",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A55-S4",
+          "day": "Sat",
+          "date": "26 Feb",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write a concise awareness guide for sixth-form students",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A53",
+      "title": "Create a ransomware detection tool",
+      "sprint": 56,
+      "start": "28 Feb 2028",
+      "end": "04 Mar 2028",
+      "track": "Blue",
+      "scope": "Defensive file-change monitor on disposable files",
+      "deliverable": "Defensive monitor and test report",
+      "steps": [
+        {
+          "id": "A53-S1",
+          "day": "Mon",
+          "date": "28 Feb",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "List benign behaviour signals and false-positive risks",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A53-S2",
+          "day": "Tue",
+          "date": "29 Feb",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Generate synthetic rapid-file-change events",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A53-S3",
+          "day": "Thu",
+          "date": "02 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a Python detector for anomalous change rates",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A53-S4",
+          "day": "Sat",
+          "date": "04 Mar",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Test clean versus synthetic suspicious patterns",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A61",
+      "title": "Secure APIs with authentication tools",
+      "sprint": 57,
+      "start": "06 Mar 2028",
+      "end": "11 Mar 2028",
+      "track": "Build",
+      "scope": "Secure a test API using existing trusted libraries",
+      "deliverable": "Toy API, access-control test results",
+      "steps": [
+        {
+          "id": "A61-S1",
+          "day": "Mon",
+          "date": "06 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Map endpoints, users and expected permissions",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A61-S2",
+          "day": "Tue",
+          "date": "07 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare token validation, access control and rate limiting",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A61-S3",
+          "day": "Thu",
+          "date": "09 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Implement authentication and authorisation in a toy API",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A61-S4",
+          "day": "Sat",
+          "date": "11 Mar",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Run permitted negative tests for denied requests",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A66",
+      "title": "Automate vulnerability scans for systems",
+      "sprint": 58,
+      "start": "13 Mar 2028",
+      "end": "18 Mar 2028",
+      "track": "Blue",
+      "scope": "Schedule read-only checks in an isolated home lab",
+      "deliverable": "Script or workflow plus safe scan report",
+      "steps": [
+        {
+          "id": "A66-S1",
+          "day": "Mon",
+          "date": "13 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Inventory only authorised test assets",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A66-S2",
+          "day": "Tue",
+          "date": "14 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Select a low-impact scanner or config-check script",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A66-S3",
+          "day": "Thu",
+          "date": "16 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Run an automated assessment against disposable VMs",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A66-S4",
+          "day": "Sat",
+          "date": "18 Mar",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Produce a deduplicated findings report and remediation list",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A67",
+      "title": "Secure containers with microservices",
+      "sprint": 59,
+      "start": "20 Mar 2028",
+      "end": "25 Mar 2028",
+      "track": "Cloud",
+      "scope": "Harden a small local multi-container example",
+      "deliverable": "Container diagram and hardening checklist",
+      "steps": [
+        {
+          "id": "A67-S1",
+          "day": "Mon",
+          "date": "20 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn images, networks, secrets and least privilege",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A67-S2",
+          "day": "Tue",
+          "date": "21 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create a toy app and container configuration",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A67-S3",
+          "day": "Thu",
+          "date": "23 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Check dependency versions, users and exposed ports",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A67-S4",
+          "day": "Sat",
+          "date": "25 Mar",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Document hardened changes and run a smoke test",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A54",
+      "title": "Predict cyber threats with AI models",
+      "sprint": 60,
+      "start": "27 Mar 2028",
+      "end": "01 Apr 2028",
+      "track": "Data",
+      "scope": "Public-advisory trend forecasting with clear limitations",
+      "deliverable": "Forecast notebook and limitations",
+      "steps": [
+        {
+          "id": "A54-S1",
+          "day": "Mon",
+          "date": "27 Mar",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Define a measurable non-sensitive forecasting question",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A54-S2",
+          "day": "Tue",
+          "date": "28 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Collect a small sample of dated public advisory counts",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A54-S3",
+          "day": "Thu",
+          "date": "30 Mar",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare a simple baseline forecast with a basic model",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A54-S4",
+          "day": "Sat",
+          "date": "01 Apr",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Report errors and why prediction is uncertain",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A58",
+      "title": "Explore quantum cryptography basics",
+      "sprint": 61,
+      "start": "03 Apr 2028",
+      "end": "08 Apr 2028",
+      "track": "Research",
+      "scope": "Explain post-quantum risks and current algorithm categories",
+      "deliverable": "Post-quantum explainer and reference list",
+      "steps": [
+        {
+          "id": "A58-S1",
+          "day": "Mon",
+          "date": "03 Apr",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn classic public-key security assumptions",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A58-S2",
+          "day": "Tue",
+          "date": "04 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Read an official overview of post-quantum cryptography",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A58-S3",
+          "day": "Thu",
+          "date": "06 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare migration challenges for a fictional organisation",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A58-S4",
+          "day": "Sat",
+          "date": "08 Apr",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Create a 1-page FAQ separating quantum computing from QKD",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A59",
+      "title": "Reverse-engineer malware for defence",
+      "sprint": 62,
+      "start": "24 Apr 2028",
+      "end": "29 Apr 2028",
+      "track": "Blue",
+      "scope": "Static analysis of harmless compiled training binaries",
+      "deliverable": "Static reverse-engineering report",
+      "steps": [
+        {
+          "id": "A59-S1",
+          "day": "Mon",
+          "date": "24 Apr",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Set an offline, isolated lab policy and choose an inert binary",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A59-S2",
+          "day": "Tue",
+          "date": "25 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Inspect headers, imports and symbols of the training file",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A59-S3",
+          "day": "Thu",
+          "date": "27 Apr",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Compare disassembly notes with its documented benign behaviour",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A59-S4",
+          "day": "Sat",
+          "date": "29 Apr",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Summarise defensive signals and uncertainty",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A60",
+      "title": "Test vulnerabilities in smart home devices",
+      "sprint": 63,
+      "start": "01 May 2028",
+      "end": "06 May 2028",
+      "track": "Blue",
+      "scope": "Passive configuration and update review for owned devices",
+      "deliverable": "Smart-home review with redacted proof",
+      "steps": [
+        {
+          "id": "A60-S1",
+          "day": "Mon",
+          "date": "01 May",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "List device inventory without publishing addresses or keys",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A60-S2",
+          "day": "Tue",
+          "date": "02 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Research update channels and network-separation guidance",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A60-S3",
+          "day": "Thu",
+          "date": "04 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Check approved app settings and firmware versions",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A60-S4",
+          "day": "Sat",
+          "date": "06 May",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write a risk-ranked remediation checklist",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A62",
+      "title": "Practise red and blue team exercises",
+      "sprint": 64,
+      "start": "08 May 2028",
+      "end": "13 May 2028",
+      "track": "CTF",
+      "scope": "Structured, permissioned CTF with reporting and defence",
+      "deliverable": "Paired red-blue exercise report",
+      "steps": [
+        {
+          "id": "A62-S1",
+          "day": "Mon",
+          "date": "08 May",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Pick a legal training room with clear scope",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A62-S2",
+          "day": "Tue",
+          "date": "09 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Define red-team observations and blue-team alert hypotheses",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A62-S3",
+          "day": "Thu",
+          "date": "11 May",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Complete one allowed exercise and collect non-sensitive evidence",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A62-S4",
+          "day": "Sat",
+          "date": "13 May",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write attacker/defender perspectives and mitigations",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A63",
+      "title": "Find vulnerabilities in blockchain systems",
+      "sprint": 65,
+      "start": "26 Jun 2028",
+      "end": "01 Jul 2028",
+      "track": "Research",
+      "scope": "Review public intentionally vulnerable teaching examples",
+      "deliverable": "Blockchain security review memo",
+      "steps": [
+        {
+          "id": "A63-S1",
+          "day": "Mon",
+          "date": "26 Jun",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn common smart-contract and consensus failure categories",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A63-S2",
+          "day": "Tue",
+          "date": "27 Jun",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Choose a published case or training contract with reuse permission",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A63-S3",
+          "day": "Thu",
+          "date": "29 Jun",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Perform a checklist-based static review",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A63-S4",
+          "day": "Sat",
+          "date": "01 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Recommend fixes and describe validation methods",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A64",
+      "title": "Study security in SCADA systems",
+      "sprint": 66,
+      "start": "03 Jul 2028",
+      "end": "08 Jul 2028",
+      "track": "Architecture",
+      "scope": "Design a defensive architecture for a fictional utility",
+      "deliverable": "SCADA tabletop plan",
+      "steps": [
+        {
+          "id": "A64-S1",
+          "day": "Mon",
+          "date": "03 Jul",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Review differences between IT and operational technology",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A64-S2",
+          "day": "Tue",
+          "date": "04 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a simulated SCADA asset diagram",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A64-S3",
+          "day": "Thu",
+          "date": "06 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create a tabletop scenario about loss of availability",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A64-S4",
+          "day": "Sat",
+          "date": "08 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Document detection, communications and recovery priorities",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A65",
+      "title": "Build a simple biometric authentication system",
+      "sprint": 67,
+      "start": "10 Jul 2028",
+      "end": "15 Jul 2028",
+      "track": "Data",
+      "scope": "Mock biometric verification with fake data, not real fingerprints or faces",
+      "deliverable": "Synthetic biometric verifier and ethics note",
+      "steps": [
+        {
+          "id": "A65-S1",
+          "day": "Mon",
+          "date": "10 Jul",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Explain false acceptance/rejection and privacy risks",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A65-S2",
+          "day": "Tue",
+          "date": "11 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create synthetic biometric-score records",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A65-S3",
+          "day": "Thu",
+          "date": "13 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a threshold decision demo and chart outcomes",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A65-S4",
+          "day": "Sat",
+          "date": "15 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write limitations and data-minimisation safeguards",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A68",
+      "title": "Research autonomous vehicle cybersecurity",
+      "sprint": 68,
+      "start": "17 Jul 2028",
+      "end": "22 Jul 2028",
+      "track": "Research",
+      "scope": "Research safety-critical systems from public sources",
+      "deliverable": "Autonomous vehicle threat-model brief",
+      "steps": [
+        {
+          "id": "A68-S1",
+          "day": "Mon",
+          "date": "17 Jul",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Map vehicle components and remote connectivity at a high level",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A68-S2",
+          "day": "Tue",
+          "date": "18 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Review published safety/security frameworks or case studies",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A68-S3",
+          "day": "Thu",
+          "date": "20 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a hypothetical threat model and impact matrix",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A68-S4",
+          "day": "Sat",
+          "date": "22 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Write design controls and a safety-first summary",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A69",
+      "title": "Detect hidden data with steganography tools",
+      "sprint": 69,
+      "start": "24 Jul 2028",
+      "end": "29 Jul 2028",
+      "track": "Forensics",
+      "scope": "Detect hidden messages in your own synthetic images",
+      "deliverable": "Steganography detection worksheet",
+      "steps": [
+        {
+          "id": "A69-S1",
+          "day": "Mon",
+          "date": "24 Jul",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Learn metadata versus steganography basics",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A69-S2",
+          "day": "Tue",
+          "date": "25 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Create two sample images with explicit ownership",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A69-S3",
+          "day": "Thu",
+          "date": "27 Jul",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Use a trusted teaching tool to compare their properties",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A69-S4",
+          "day": "Sat",
+          "date": "29 Jul",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Record detection success, limitations and false positives",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    },
+    {
+      "id": "A70",
+      "title": "Create a cybersecurity training programme",
+      "sprint": 70,
+      "start": "31 Jul 2028",
+      "end": "05 Aug 2028",
+      "track": "Career",
+      "scope": "Package your best safe projects into a beginner training plan",
+      "deliverable": "Training pack, lesson notes and quiz",
+      "steps": [
+        {
+          "id": "A70-S1",
+          "day": "Mon",
+          "date": "31 Jul",
+          "time": "19:00",
+          "minutes": 30,
+          "task": "Choose a beginner audience and define learning objectives",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A70-S2",
+          "day": "Tue",
+          "date": "01 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Write three mini-lessons with exercises and safety rules",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A70-S3",
+          "day": "Thu",
+          "date": "03 Aug",
+          "time": "19:00",
+          "minutes": 60,
+          "task": "Build a short quiz using mock logs or configuration examples",
+          "status": "not_started",
+          "evidence": []
+        },
+        {
+          "id": "A70-S4",
+          "day": "Sat",
+          "date": "05 Aug",
+          "time": "10:00",
+          "minutes": 90,
+          "task": "Pilot with a willing learner and revise based on feedback",
+          "status": "not_started",
+          "evidence": []
+        }
+      ]
+    }
+  ]
+}

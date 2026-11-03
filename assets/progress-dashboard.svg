@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Cybersecurity 70-project evidence-based progress">
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#06111F"/><stop offset="1" stop-color="#0B2031"/></linearGradient><linearGradient id="bar" x2="1"><stop stop-color="#00DFD8"/><stop offset="1" stop-color="#42B8FF"/></linearGradient></defs>
+<rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+<path d="M30 70H1170M30 295H1170" stroke="#1B3950" stroke-width="2"/>
+<g fill="#123146" opacity=".38">
+<path d="M30 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M60 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M90 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M120 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M150 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M180 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M210 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M240 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M270 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M300 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M330 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M360 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M390 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M420 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M450 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M480 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M510 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M540 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M570 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M600 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M630 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M660 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M690 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M720 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M750 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M780 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M810 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M840 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M870 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M900 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M930 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M960 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M990 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M1020 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M1050 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M1080 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M1110 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M1140 0V420" stroke="#123146" stroke-width=".5"/>
+<path d="M1170 0V420" stroke="#123146" stroke-width=".5"/>
+</g><text x="45" y="45" fill="#38E6DF" font-size="16" font-family="monospace" letter-spacing="3">KADEN // CYBERSECURITY FIELD NOTES</text>
+<text x="1150" y="45" fill="#8DAAB8" text-anchor="end" font-size="15" font-family="monospace">LIVE FROM VERIFIED STEP DATA</text>
+<text x="48" y="120" fill="#B4C6D0" font-size="19" font-family="Arial,sans-serif">PROJECTS COMPLETED</text>
+<text x="45" y="230" fill="#F4FCFF" font-family="monospace" font-weight="bold" font-size="93">0<tspan font-size="35" fill="#77A4B6"> / 70</tspan></text>
+<text x="48" y="270" fill="#55D8FF" font-size="17" font-family="monospace">0% OF PROJECTS COMPLETED</text>
+<text x="520" y="120" fill="#B4C6D0" font-size="19">STEP COMPLETION</text>
+<text x="520" y="190" fill="#F4FCFF" font-size="56" font-family="monospace">0<tspan fill="#77A4B6" font-size="27"> / 280 STEPS</tspan></text>
+<rect x="520" y="210" width="620" height="20" rx="10" fill="#1D3B4D"/>
+<rect x="520" y="210" width="0" height="20" rx="10" fill="url(#bar)"/>
+<text x="520" y="270" fill="#8EAFC0" font-family="monospace" font-size="18">IN PROGRESS 00   ·   DELAYED 00   ·   PLANNED 70</text>
+<text x="45" y="332" fill="#8EAFC0" font-family="monospace" font-size="15">TRACK PROGRESSION</text>
+<text x="45" y="368" font-size="17" font-family="monospace" fill="#E4F7FA">BEGINNER</text>
+<text x="385" y="368" text-anchor="end" font-size="17" font-family="monospace" fill="#55D8FF">0/25</text>
+<rect x="45" y="382" width="340" height="12" rx="6" fill="#224057"/>
+<rect x="45" y="382" width="0" height="12" rx="6" fill="#39DBD1"/>
+<text x="435" y="368" font-size="17" font-family="monospace" fill="#E4F7FA">INTERMEDIATE</text>
+<text x="775" y="368" text-anchor="end" font-size="17" font-family="monospace" fill="#55D8FF">0/25</text>
+<rect x="435" y="382" width="340" height="12" rx="6" fill="#224057"/>
+<rect x="435" y="382" width="0" height="12" rx="6" fill="#39DBD1"/>
+<text x="825" y="368" font-size="17" font-family="monospace" fill="#E4F7FA">ADVANCED</text>
+<text x="1165" y="368" text-anchor="end" font-size="17" font-family="monospace" fill="#55D8FF">0/20</text>
+<rect x="825" y="382" width="340" height="12" rx="6" fill="#224057"/>
+<rect x="825" y="382" width="0" height="12" rx="6" fill="#39DBD1"/>
+</svg>
