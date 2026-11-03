@@ -86,3 +86,7 @@ The VMware Fusion **Finish** screen recognised the selected installer as **Ubunt
 **Action before booting:** open Customize Settings, set the growable virtual disk to 50 GB if host storage allows, keep 6 GB RAM and 2 CPU cores, and use NAT temporarily to install/update. The planned security lab network remains host-only after updates.
 
 **Still to verify:** actual available Mac disk space and macOS version. No B06-S1 completion claimed.
+
+## Virtual disk settings verified in Fusion (3 November 2026, 17:16)
+
+The user-provided VMware Fusion **Hard Disk (NVMe)** screenshot displays a **50.00 GB** virtual disk. The Apply button is greyed out, consistent with there being no unsaved change. This verifies the **configured virtual disk capacity**, not the Mac's available host storage or successful guest OS installation. Next checks: verify 6 GB RAM, 2 CPU cores, NAT for installation, then check host storage before proceeding.
