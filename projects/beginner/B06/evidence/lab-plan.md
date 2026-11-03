@@ -1,6 +1,6 @@
 # B06 — Home lab plan
 
-**Step:** B06-S1 · **Status:** Planning · **Started:** 3 November 2026
+**Step:** B06-S1 · **Status:** Completed (user-confirmed checks) · **Started:** 3 November 2026
 
 ## Why I'm building it
 
@@ -63,8 +63,8 @@ Snapshots help roll back a VM, but they are **not a substitute for an external b
 - [x] Plan VM sizes and a private two-VM network.
 - [x] Decide when to use host-only versus temporary NAT.
 - [x] Write snapshot names and a restore-test plan.
-- [ ] Confirm the exact macOS version and available disk space.
-- [ ] Confirm there is enough usable space for Ubuntu, a second VM, and snapshots.
+- [x] Check macOS version and available disk space (user reports checks done; actual values not provided).
+- [x] Confirm adequate host space for the proposed VM setup (user-confirmed; no exact amount recorded).
 
 Once the two remaining checks are done, I can close B06-S1. Installing Ubuntu belongs to B06-S2.
 
@@ -90,3 +90,9 @@ The VMware Fusion **Finish** screen recognised the selected installer as **Ubunt
 ## Virtual disk settings verified in Fusion (3 November 2026, 17:16)
 
 The user-provided VMware Fusion **Hard Disk (NVMe)** screenshot displays a **50.00 GB** virtual disk. The Apply button is greyed out, consistent with there being no unsaved change. This verifies the **configured virtual disk capacity**, not the Mac's available host storage or successful guest OS installation. Next checks: verify 6 GB RAM, 2 CPU cores, NAT for installation, then check host storage before proceeding.
+
+## B06-S1 completion report — 3 November 2026
+
+The user reports that the remaining Mac checks and VMware configuration are in place. The hypervisor choice, ARM64 Ubuntu image, two-VM design, NAT-to-host-only network strategy, and snapshot plan are documented above. The exact macOS version and available host disk-space number were **not shared**, so those values have not been independently verified in this portfolio.
+
+**B06-S1 is complete as a documented design and user-confirmed readiness check.** This does not prove a guest OS has booted or that network isolation/recovery tests succeeded; those belong to B06-S2 through S4.
