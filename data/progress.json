@@ -41,8 +41,10 @@
           "time": "19:00",
           "minutes": 60,
           "task": "Install one Linux VM and learn basic networking commands",
-          "status": "not_started",
-          "evidence": []
+          "status": "completed",
+          "evidence": [
+            "projects/beginner/B06/evidence/ubuntu-install-verification.md"
+          ]
         },
         {
           "id": "B06-S3",
