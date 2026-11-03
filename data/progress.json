@@ -29,8 +29,10 @@
           "time": "19:00",
           "minutes": 30,
           "task": "Choose a hypervisor and write an isolation/snapshot checklist",
-          "status": "not_started",
-          "evidence": []
+          "status": "in_progress",
+          "evidence": [
+            "projects/beginner/B06/evidence/lab-plan.md"
+          ]
         },
         {
           "id": "B06-S2",
