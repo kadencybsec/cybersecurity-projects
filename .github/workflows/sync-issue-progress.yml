@@ -18,6 +18,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Refresh local branch from latest main
+        if: github.event_name == 'issues'
+        run: |
+          git fetch origin main
+          git checkout -B main origin/main
       - name: Test issue parser and progress rules
         run: python3 -m unittest discover -s tests -v
       - name: Synchronise completed checkboxes
@@ -29,12 +34,23 @@ jobs:
       - name: Commit changed progress and dashboard
         if: github.event_name == 'issues'
         run: |
-          if git diff --quiet -- data/progress.json assets/progress-dashboard.svg; then
-            echo "No completed-step changes"
-            exit 0
-          fi
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/progress.json assets/progress-dashboard.svg
-          git commit -m "chore: sync recorded project progress [skip ci]"
-          git push
+          git config user.email "41898282+users.noreply.github.com"
+          for attempt in 1 2 3; do
+            if git diff --quiet -- data/progress.json assets/progress-dashboard.svg; then
+              echo "Progress and dashboard already match current issue state"
+              exit 0
+            fi
+            git add data/progress.json assets/progress-dashboard.svg
+            git commit -m "chore: sync recorded project progress [skip ci]"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Main changed during update; recomputing from latest main (attempt $attempt)"
+            git fetch origin main
+            git reset --hard origin/main
+            python3 scripts/sync_issue_progress.py
+            python3 scripts/render_dashboard.py
+          done
+          echo "Could not publish after three safe retries"
+          exit 1
