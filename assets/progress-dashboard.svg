@@ -51,7 +51,7 @@
 <text x="520" y="190" fill="#F4FCFF" font-size="56" font-family="monospace">0<tspan fill="#77A4B6" font-size="27"> / 280 STEPS</tspan></text>
 <rect x="520" y="210" width="620" height="20" rx="10" fill="#1D3B4D"/>
 <rect x="520" y="210" width="0" height="20" rx="10" fill="url(#bar)"/>
-<text x="520" y="270" fill="#8EAFC0" font-family="monospace" font-size="18">IN PROGRESS 00   ·   DELAYED 00   ·   PLANNED 70</text>
+<text x="520" y="270" fill="#8EAFC0" font-family="monospace" font-size="18">IN PROGRESS 01   ·   DELAYED 00   ·   PLANNED 69</text>
 <text x="45" y="332" fill="#8EAFC0" font-family="monospace" font-size="15">TRACK PROGRESSION</text>
 <text x="45" y="368" font-size="17" font-family="monospace" fill="#E4F7FA">BEGINNER</text>
 <text x="385" y="368" text-anchor="end" font-size="17" font-family="monospace" fill="#55D8FF">0/25</text>
