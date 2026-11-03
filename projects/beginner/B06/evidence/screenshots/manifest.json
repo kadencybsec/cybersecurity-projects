@@ -1,0 +1,72 @@
+[
+  {
+    "filename": "01-vm-initial-configuration.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.14.39\u202fPM.png",
+    "caption": "VMware initial VM configuration summary (20 GB before adjustment)",
+    "bytes": 142664,
+    "sha256": "4d576a1498efc9c48246d2717eb993dea8ade56df78f8569b48001b404a9619c"
+  },
+  {
+    "filename": "02-virtual-disk-50gb.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.16.38\u202fPM.png",
+    "caption": "VMware NVMe virtual disk configured for 50 GB",
+    "bytes": 80937,
+    "sha256": "ceb1a4d55a935a44377b58e2b1504874efa9902887da3a2cb960864873076af6"
+  },
+  {
+    "filename": "03-ubuntu-interactive-installer.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.23.38\u202fPM.png",
+    "caption": "Ubuntu ARM64 interactive installation selected",
+    "bytes": 2656731,
+    "sha256": "74103de1a9facf10413e10e912c5f3d59b23b91545cbcf24c60b4292e44ce971"
+  },
+  {
+    "filename": "04-ubuntu-encryption-choice.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.25.54\u202fPM.png",
+    "caption": "Ubuntu installer encryption choice",
+    "bytes": 2747875,
+    "sha256": "ed162509f3351f92364214ccc54cfd5600a787288b804d31b5b06530d804d5c5"
+  },
+  {
+    "filename": "05-ubuntu-partition-summary.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.27.29\u202fPM.png",
+    "caption": "Installer confirms virtual NVMe target, EFI and ext4 partitions",
+    "bytes": 1709683,
+    "sha256": "a33c636c3e8d6bd91d88be78c428a4a9aa05c31f0cd807253ee6f911485f9506"
+  },
+  {
+    "filename": "06-ubuntu-package-install.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.36.50\u202fPM.png",
+    "caption": "Ubuntu installation logs showing packages unpacked",
+    "bytes": 3351062,
+    "sha256": "c61a208c5743df1cf478861c8c060925efd9ae6bef3fd548f167e5a72780c0b9"
+  },
+  {
+    "filename": "07-ubuntu-remove-install-media.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.40.07\u202fPM.png",
+    "caption": "Ubuntu completed installation and requested media removal",
+    "bytes": 2114696,
+    "sha256": "028e338eaba33e2d93dc9fc73eebb3881879d25f4818577aaebdb1f4bbc15882"
+  },
+  {
+    "filename": "08-fusion-disconnected-iso.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.41.41\u202fPM.png",
+    "caption": "VMware Fusion virtual CD/DVD already disconnected",
+    "bytes": 872643,
+    "sha256": "063706cc3b8ded02150ffa265cc605d4d9acf984086578cb1e00e2e23758ee10"
+  },
+  {
+    "filename": "09-ubuntu-first-desktop-update.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.44.24\u202fPM.png",
+    "caption": "Installed Ubuntu desktop booted and software updates underway",
+    "bytes": 3256552,
+    "sha256": "ea2fe6fa1b0470095ac9c4a94fe1d2f6427ad3ef002749cc69b4468661215662"
+  },
+  {
+    "filename": "10-ubuntu-terminal-verification.png",
+    "source_filename": "Screenshot 2026-11-03 at 5.50.12\u202fPM.png",
+    "caption": "Terminal demonstrates Ubuntu ARM64 architecture, OS version, disk and network status",
+    "bytes": 3114402,
+    "sha256": "9c0ac54fbb63a6cba5e87e82eed81b076e81f100f69a69b2d3e01eef303550f2"
+  }
+]
