@@ -35,7 +35,17 @@ The VM's specific IPv4/IPv6 addresses are intentionally omitted from this public
 
 ## Evidence and limitations
 
-The installer, first Ubuntu desktop boot and terminal verification screenshots were provided in the project chat. This Markdown report records the technical observations, but the original screenshots **have not been uploaded to this repository**.
+The original screenshots have now been uploaded to [the B06 screenshot collection](screenshots/README.md). These are the unedited screenshots from the installation and command checks.
+
+**First successful desktop boot and software updates:**
+
+![Ubuntu desktop after first boot](screenshots/09-ubuntu-first-desktop-update.png)
+
+**Terminal checks, including corrected command mistakes:**
+
+![Ubuntu 26.04.1 ARM64 terminal verification](screenshots/10-ubuntu-terminal-verification.png)
+
+The images document the observed state at the time. A screenshot does not on its own verify network isolation or snapshot recovery.
 
 This verifies an installed, bootable ARM64 Ubuntu VM and the introductory commands required for B06-S2. It does not verify the future second VM, host-only isolation or snapshot recovery.
 
