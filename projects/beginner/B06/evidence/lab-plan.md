@@ -102,3 +102,11 @@ The user reports that the remaining Mac checks and VMware configuration are in p
 The user shared Ubuntu's **Ready to install** summary from within VMware Fusion. The selected target was `nvme0n1` with **Erase disk and install Ubuntu**, a FAT32 EFI partition (`nvme0n1p1` mounted at `/boot/efi`), and an ext4 root partition (`nvme0n1p2` mounted at `/`). The default application selection and no guest disk encryption were selected. This is consistent with installing Ubuntu 26.04.1 ARM64 to the newly configured VMware virtual disk. The summary itself did not show capacity; the previous VMware settings screenshot showed a 50 GB virtual disk.
 
 **Evidence status:** Installer configuration reviewed, but Ubuntu installation, first login, networking tests and guest system verification are not yet shown. The screenshot is held in the chat and is not embedded in the repository.
+
+## B06-S2 installation reached restart prompt (3 November 2026, 17:40)
+
+The user-provided VMware Fusion screenshot shows the Ubuntu splash screen and the instruction **“Please remove the installation medium, then press ENTER.”** This supports that the installer has reached its post-installation restart stage. It **does not yet verify** a successful boot from the installed virtual disk or a working Ubuntu login.
+
+**Next:** Disconnect the attached Ubuntu ISO from VMware Fusion's virtual CD/DVD drive, then press Enter in the guest. After a successful login, record `uname -m`, `cat /etc/os-release`, and `ip -brief address` (redact network details if publishing). The 50 GB virtual hard disk must remain connected.
+
+**Evidence status:** Screenshot supplied in chat; observation written to this record. B06-S2 remains open until first boot and system checks succeed.
