@@ -1,36 +1,21 @@
-# Selected Work & Technical Portfolio
+# Project Portfolio
 
-> A curated index for CVs, apprenticeship applications and future employers. Only finished work with real evidence belongs in **Completed work**.
+A collection of projects as I finish them. I'll link the code, screenshots, reports and test results here so each entry has more than just a title.
 
-## Completed work
+## Finished projects
 
-No projects have yet been verified and added to this list. Entries will be published with a summary, technologies, evidence and personal reflection after the work is complete.
+Nothing published here yet. My first projects are underway as part of my cybersecurity learning plan.
 
-<!-- Add new completed entries using the format below:
-| [Project name](path/to/project/README.md) | One-sentence problem and result | Python, Linux | Evidence, tests, limitations |
--->
+| Project | What I built or investigated | Code / notes |
+|:--|:--|:--|
+| _To be added_ | | |
 
-| Project | Outcome | Technologies | Proof |
-|:--|:--|:--|:--|
-| _No completed items published yet_ | | | |
+## Coming up
 
-## In progress / next up
+| Project | Focus | Link |
+|:--|:--|:--|
+| B06 — Home cybersecurity lab | Virtual machines, network isolation and snapshots | [Project notes](projects/beginner/B06/README.md) |
 
-| Work | Stage | Focus | Evidence |
-|:--|:--|:--|:--|
-| [B06 · Personal cybersecurity lab](projects/beginner/B06/README.md) | Planned | Safe VM setup, network isolation, snapshots | Pending |
+## Browse by topic
 
-## Ways to browse
-
-- [Independent projects](independent-projects/)
-- [Tools and small utilities](tools/)
-- [Security research](research/)
-- [Case studies and technical reports](case-studies/)
-- [Original 70-project training roadmap](docs/roadmap.md)
-- [Learning log and HTB reflections](https://github.com/kadencybsec/cyber-learning-log)
-
-## Admission standard
-
-A portfolio item qualifies for the **Completed work** section only when it has an understandable objective, working result or sourced investigation, reproducible steps, sanitised evidence, a tested outcome, limitations and an explanation in my own words.
-
-Completion of one of the 70-project learning sprints can qualify, but no project is featured merely because it appears on a schedule.
+[Independent projects](independent-projects/) · [Tools](tools/) · [Research](research/) · [Case studies](case-studies/) · [70-project roadmap](docs/roadmap.md) · [Learning log](https://github.com/kadencybsec/cyber-learning-log)

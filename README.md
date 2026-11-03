@@ -2,67 +2,49 @@
 
 ![Cybersecurity Projects and Research](assets/portfolio-banner.svg)
 
-**A growing collection of cybersecurity labs, software, tools, research and documented investigations.**
+**Cybersecurity projects, experiments, tools and research.**
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-CURATED%20WORK-46DDCF?style=for-the-badge&labelColor=102334)](PORTFOLIO.md)
-[![Learning Track](https://img.shields.io/badge/LEARNING-STRUCTURED%20PROJECTS-5EBAFA?style=for-the-badge&labelColor=102334)](docs/roadmap.md)
-[![Study Log](https://img.shields.io/badge/NOTES-LEARNING%20LOG-ACB2FF?style=for-the-badge&labelColor=102334)](https://github.com/kadencybsec/cyber-learning-log)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Selected%20Work-46DDCF?style=for-the-badge&labelColor=102334)](PORTFOLIO.md)
+[![Roadmap](https://img.shields.io/badge/Roadmap-70%20Projects-5EBAFA?style=for-the-badge&labelColor=102334)](docs/roadmap.md)
+[![Notes](https://img.shields.io/badge/Notes-Learning%20Log-ACB2FF?style=for-the-badge&labelColor=102334)](https://github.com/kadencybsec/cyber-learning-log)
 
 </div>
 
-## Overview
+## About this repository
 
-This repository is the main public workspace for **Kaden Younis's practical cybersecurity work**. It is designed to grow with new tools, independent projects, security analysis and research, including work created **after** the original 2026–2028 learning roadmap.
+This is where I keep my cybersecurity projects, from small lab experiments to scripts, research and more involved builds. I'll be adding work here as I learn new tools and find new things I want to explore.
 
-Every finished item should explain its purpose, authorised scope, technical approach, test results, evidence and limitations. A folder or checklist alone does not demonstrate a finished project.
+## Project areas
 
-## Explore the portfolio
+| Area | Contents |
+|:--|:--|
+| [Selected work](PORTFOLIO.md) | Completed projects and their results |
+| [Independent projects](independent-projects/) | Projects outside my structured learning plan |
+| [Tools](tools/) | Scripts, utilities and automation |
+| [Research](research/) | Security topics, investigations and reading |
+| [Case studies](case-studies/) | Lab reports and security write-ups |
+| [70-project roadmap](docs/roadmap.md) | My structured cybersecurity learning project list |
 
-| Section | Purpose | Location |
-|:--|:--|:--|
-| **Curated work** | Best completed pieces to share with recruiters, with direct evidence | [Portfolio index](PORTFOLIO.md) |
-| **Independent projects** | New investigations and builds outside the original roadmap | [Independent projects](independent-projects/) |
-| **Tools & automation** | Original scripts, utilities, tests and safe prototypes | [Tools](tools/) |
-| **Security research** | Threat modelling, referenced technical findings and defensive research | [Research](research/) |
-| **Case studies & reports** | Sanitised findings, remediation plans, lessons learned | [Case studies](case-studies/) |
-| **Structured learning track** | The original 70-project programme, with numbered steps | [Roadmap](docs/roadmap.md) |
+## On my desk
 
-### Current work
+**[B06 — Home cybersecurity lab](projects/beginner/B06/README.md)**
 
-**B06 — Personal cybersecurity lab** is the first scheduled learning sprint, covering safe VM isolation, initial Linux setup, a second test system and recovery snapshots. [Open B06](projects/beginner/B06/README.md).
+Starting with an isolated virtual-machine lab. The plan covers setup, Linux networking, a second test system and snapshots. I'll add the diagram, configuration notes and test results as I work through it.
 
-Finished independent work will be added to the [portfolio index](PORTFOLIO.md), not buried within the training checklist.
+## 70-project roadmap
 
-## Structured learning programme
+Alongside independent work, I'm using a list of 70 projects to explore cybersecurity through Year 12 and Year 13. They range from Linux and networking to detection, security tools and research.
 
-The existing training track is a **specific 70-project programme**, not the scope of this entire portfolio.
-
-| Level | IDs | Project folders |
+| Level | Projects | Folder |
 |:--|:--|:--|
 | Beginner | B01–B25 | [Browse](projects/beginner/) |
 | Intermediate | I26–I50 | [Browse](projects/intermediate/) |
 | Advanced | A51–A70 | [Browse](projects/advanced/) |
 
-![Recorded progress of the original 70-project programme](assets/progress-dashboard.svg)
+![Progress within the 70-project roadmap](assets/progress-dashboard.svg)
 
-This visual shows **only** progress in the original numbered curriculum. It is computed from [data/progress.json](data/progress.json), which starts with no completed projects. Unrelated future work has its own index and will not distort this percentage.
+The progress chart tracks this project list, not every project I've worked on. Individual steps and dates are kept in [the progress file](data/progress.json).
 
-## How to add new work
+## Elsewhere
 
-1. Choose a location: `independent-projects/`, `tools/`, `research/`, or `case-studies/`.
-2. Create a descriptive folder and start with the [independent project template](docs/independent-project-template.md).
-3. Record requirements and scope, build or investigate, test, then write your own conclusions.
-4. Keep sample data harmless and screenshots redacted. Describe failures and limitations.
-5. Once genuinely completed, add the item to [PORTFOLIO.md](PORTFOLIO.md) with links to its evidence. Unfinished work stays in the work-in-progress section.
-
-See [publishing workflow](docs/publishing-workflow.md) and [evidence standard](docs/evidence-standard.md).
-
-## What matters here
-
-- **Reproducibility:** document setup, versions, assumptions and expected results.
-- **Clarity:** explain why commands and technical decisions work.
-- **Security:** use owned/authorised labs and synthetic data; never commit secrets or personal data.
-- **Honesty:** distinguish a plan, a prototype, a tested result and a production-ready tool.
-- **Iteration:** preserve what changed and what was learned.
-
-**Related:** [GitHub profile](https://github.com/kadencybsec) · [Cyber learning log](https://github.com/kadencybsec/cyber-learning-log) · [Security policy](SECURITY.md)
+[Learning log](https://github.com/kadencybsec/cyber-learning-log) · [Profile](https://github.com/kadencybsec) · [Project index](PORTFOLIO.md)
