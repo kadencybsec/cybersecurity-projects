@@ -8,11 +8,8 @@ I want a small lab where I can learn Linux, networking and basic security testin
 
 ## My computer
 
-- Host: Apple Silicon Mac
-- Memory: 16 GB
-- Exact chip: to check
-- macOS version: to check
-- Available disk space: to check
+- Host: Apple Silicon Mac, 16 GB RAM
+- Exact chip, macOS version and available host disk space: checked by user during setup, actual numbers not recorded here
 
 ## Virtualisation choice
 
@@ -24,7 +21,7 @@ I want a small lab where I can learn Linux, networking and basic security testin
 
 | VM | Role | CPU | RAM | Virtual disk | Network |
 |:--|:--|--:|--:|--:|:--|
-| `lab-ubuntu-arm` | Linux learning workstation | 4 vCPU | 6 GB | 50 GB, growable | Host-only for experiments; temporary NAT for updates |
+| `lab-ubuntu-arm` | Installed Ubuntu Desktop 26.04.1 ARM64 | 2 vCPU | 6 GB | 50 GB, growable | Host-only for experiments; NAT for initial updates |
 | `lab-target-arm` | Second harmless test machine, added in B06-S3 | 2 vCPU | 2 GB | 25 GB, growable | Same host-only network |
 
 I will run one VM at a time whenever possible. If the host becomes slow, I will lower the first VM to 4 GB RAM. I will not start a second VM until I have checked host storage and RAM use. Disk images and snapshots can grow, so the allocated disk sizes are **not** a reliable measure of space used.
@@ -117,4 +114,12 @@ The user shared a screenshot showing the **Ubuntu 26.04.1 desktop after restarti
 
 **Next checks after Software Updater finishes:** open Terminal and run `uname -m`, `cat /etc/os-release`, `df -h /`, and `ip -br address`. Record the outputs while redacting identifying or network details from screenshots that will be published. If prompted to restart after updates, restart before testing.
 
-**Evidence:** Screenshot supplied in chat, not uploaded to this repository. B06-S2 remains in progress pending terminal verification and first command explanations.
+**Update:** The original screenshot was subsequently uploaded into the [screenshots folder](screenshots/README.md). B06-S2 was completed after the separate [terminal verification report](ubuntu-install-verification.md).
+
+## Screenshots now published
+
+The complete [10-image installation screenshot collection](screenshots/README.md) is stored beside this planning document. The selected VMware disk configuration is visible here:
+
+![VMware Fusion 50 GB virtual disk configuration](screenshots/02-virtual-disk-50gb.png)
+
+See [Ubuntu installation verification](ubuntu-install-verification.md) for first boot and Terminal output.
