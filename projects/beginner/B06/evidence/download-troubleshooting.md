@@ -1,25 +1,25 @@
-# B06 — VMware Fusion download troubleshooting
+# B06 — VMware Fusion download and first launch
 
 **Date:** 3 November 2026  
-**Related:** B06-S1 lab planning / preparation for B06-S2 installation  
-**Status:** Blocked by vendor account screening; not resolved yet
+**Step:** B06-S1 lab planning; preparing for B06-S2 VM installation  
+**Download issue:** Resolved based on observed Fusion launch  
+**VM installation:** Not yet started
 
-## What I observed
-While downloading VMware Fusion **26H1u1** from the official Broadcom Support Portal, the cloud download icon displayed **“Screening Required.”** The page also showed an **“I agree to the Terms and Conditions”** checkbox that was not yet selected in the screenshot.
+## What happened
+The Broadcom Support Portal initially displayed **“Screening Required”** beside the VMware Fusion **26H1u1** download. Later, VMware Fusion was running locally on the Mac and showing the **“Select the Installation Method”** window. This confirms the application launched successfully; it does not yet prove that Ubuntu was installed.
 
-This is a vendor account/download access issue. It does **not** demonstrate an installed virtual machine or successful security testing.
+## Next steps
+- [x] Reach the VMware Fusion virtual-machine creation wizard.
+- [ ] Download an **Ubuntu 26.04.1 LTS Desktop ARM64** ISO from https://ubuntu.com/download/desktop.
+- [ ] In Fusion, choose **Install from disc or image** and select the ARM64 ISO.
+- [ ] Configure the planned VM resources and confirm macOS and free disk space before installation.
+- [ ] Install Ubuntu during B06-S2.
+- [ ] Test network isolation and snapshots in later steps.
 
-## Next troubleshooting steps
-- [ ] Open and review the Terms and Conditions, then accept them if appropriate.
-- [ ] Click the download icon again and see whether a **Trade Compliance and Download Conditions** form opens.
-- [ ] If prompted, submit accurate personal details without using invented company details.
-- [ ] If screening continues, contact Broadcom Customer Care for account verification help.
-- [ ] Confirm the official VMware Fusion installer downloads successfully.
+## Evidence notes
+- **Observed in user screenshot:** Fusion's “Select the Installation Method” wizard, offering disc/image, Windows and remote server options.
+- **Meaning:** Fusion can run on this Mac; an operating system has not been installed inside a VM yet.
+- **Image status:** Screenshot remains in the study chat; not uploaded to this repository.
+- **Result:** Broadcom download blocker no longer prevents opening VMware Fusion.
 
-## Evidence to add after testing
-- A screenshot of the download success or an installation dialogue, with account names, email addresses and other personal details hidden.
-- What changed between the blocked and successful attempts.
-- Official instructions used: https://knowledge.broadcom.com/external/article/368588/error-account-verification-is-pending-pl.html
-
-## Result
-**Pending.** No installation claimed. This is a troubleshooting record, not completion evidence.
+See [B06 lab design](lab-plan.md).
