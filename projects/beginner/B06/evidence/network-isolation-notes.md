@@ -1,0 +1,50 @@
+# B06-S3 — Two-machine network isolation test
+
+**Date started:** 3 November 2026  
+**Status:** In progress; the second VM and network tests have not yet been performed.
+
+## What I am building
+
+Two small ARM64 Linux virtual machines on a host-only VMware Fusion network. The first VM is my installed Ubuntu desktop. The second will be Ubuntu Server without a graphical desktop, so it uses less of my Mac's RAM.
+
+| Item | Purpose | Planned resources |
+|:--|:--|:--|
+| Existing Ubuntu desktop | Learning / test client | 2 CPU, 6 GB RAM, 50 GB virtual disk |
+| `lab-target-arm` Ubuntu Server 26.04.1 LTS ARM64 | Harmless second test system | 2 CPU, 2 GB RAM, 25 GB growable virtual disk |
+| `Private to my Mac` | Host-only communication between VMs and Mac host | One adapter per VM; no NAT/bridged adapter during isolation tests |
+
+## Phase A — Create the second VM
+
+- [ ] Download the standard 26.04.1 ARM64 **Ubuntu Server** ISO from https://ubuntu.com/download/server/arm (not AMD64 or the 64k-page-size variant).
+- [ ] In VMware Fusion, create a new VM from the ISO, call it `lab-target-arm`, and allocate 2 CPU / 2 GB RAM / 25 GB growable disk.
+- [ ] Install the guest using a temporary NAT connection if needed for updates. Set a distinct hostname and user account.
+- [ ] Log into the new server, confirm `uname -m` is `aarch64`, and update packages.
+- [ ] Fully shut down the VM before changing its network adapter.
+
+## Phase B — Create the private test network
+
+- [ ] Shut down both VMs and change **Network Adapter** on each VM to **Private to my Mac** (host-only). Use only one attached adapter for each; do not leave a second NAT/bridged adapter connected.
+- [ ] Boot both VMs. On each, run `ip -br address` to record its private IPv4 address.
+- [ ] Run `ip route` on both VMs to inspect routes and confirm there is no external default route.
+- [ ] From the desktop VM, run `ping -c 3 <SERVER_PRIVATE_IPV4>`, using only the IP assigned to the server's host-only adapter.
+- [ ] From the server, run `ping -c 3 <DESKTOP_PRIVATE_IPV4>`.
+- [ ] From one VM, run `ping -c 3 1.1.1.1`. Expect no internet route through a true host-only-only network. Failed ICMP alone is not proof of isolation: check VMware adapter modes and `ip route` too.
+
+## What I will record
+
+| Test | Expected | Actual result |
+|:--|:--|:--|
+| Desktop guest architecture | aarch64 | Not tested for this step |
+| Server guest architecture | aarch64 | Not tested |
+| Both network adapters | Private to my Mac only | Not configured |
+| Desktop ↔ server | Private network connectivity | Not tested |
+| External default route | Absent on isolated VMs | Not tested |
+| External IP connectivity | No normal path | Not tested |
+
+## Notes
+
+Host-only networking separates the VMs from the physical home LAN but still lets the **Mac host** communicate with them. It does not make a compromised VM absolutely unable to affect its host. I won't put live malware or unsafe targets in this lab.
+
+When complete, I will attach screenshots of both VMware network adapters, `ip -br address`, `ip route`, and both ping directions. Screenshots may show private IP addresses; never include passwords or access tokens.
+
+**Next:** After confirming the network works, B06-S4 will cover snapshots, restoring a harmless change and final documentation.
