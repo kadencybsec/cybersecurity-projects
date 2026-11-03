@@ -78,3 +78,11 @@ Once the two remaining checks are done, I can close B06-S1. Installing Ubuntu be
 ## Work log
 
 - **3 November 2026:** Initial design recorded; Mac storage and exact macOS version still to confirm.
+
+## Fusion configuration observed (3 November 2026)
+
+The VMware Fusion **Finish** screen recognised the selected installer as **Ubuntu 64-bit Arm 26.04.1**. The proposed VM configuration displayed **20 GB disk, 6 GB RAM, 2 CPU cores and Share with my Mac (NAT)**. This is a setup-wizard summary, **not evidence of Ubuntu installation**.
+
+**Action before booting:** open Customize Settings, set the growable virtual disk to 50 GB if host storage allows, keep 6 GB RAM and 2 CPU cores, and use NAT temporarily to install/update. The planned security lab network remains host-only after updates.
+
+**Still to verify:** actual available Mac disk space and macOS version. No B06-S1 completion claimed.
