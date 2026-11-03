@@ -90,3 +90,25 @@ The earlier Ubuntu Desktop showed `192.168.16.128/24` while on the VMware NAT ne
 **Next actions:** Update this server while NAT is available, shut down both VMs cleanly, set each VM's only connected Network Adapter to Private to my Mac, reboot both, and record `ip -br address`, `ip route`, peer-to-peer `ping -c 3`, and an external-route check. The screenshot remains in the ChatGPT conversation and has not yet been committed as a PNG to the repository.
 
 **B06-S3 remains In Progress** until both machines can communicate on a host-only network and external routing/isolation has been checked.
+
+## Host-only network configuration observed — 3 November 2026, 19:00
+
+The user shared one screenshot containing both running VMs and their `ip -br address` and `ip route` outputs.
+
+| VM | Interface | Assigned IPv4 | Connected route | Default route |
+|:--|:--|:--|:--|:--|
+| Ubuntu Desktop | `enp2s0` UP | `172.16.104.128/24` | `172.16.104.0/24` | None shown |
+| Ubuntu Server (`lab-target-arm`) | `enp2s0` UP | `172.16.104.130/24` | `172.16.104.0/24` | None shown |
+
+These addresses replaced earlier NAT-subnet addresses in `192.168.16.0/24`. This supports that the two VMs are now on the same private subnet and have no general IPv4 default route. On the server, a separate route to `172.16.104.1` was also visible, but it is not a default route.
+
+**Not yet tested:** Whether ICMP packets can pass between the VMs and whether an external address can be routed to. The screenshot is retained in the conversation and is not yet a committed PNG.
+
+### Next checks, pending actual results
+
+- [ ] Desktop: `ping -c 3 172.16.104.130`
+- [ ] Server: `ping -c 3 172.16.104.128`
+- [ ] Both: `ip route get 1.1.1.1`
+- [ ] Verify in VMware Fusion that both adapters are **Private to my Mac** and no NAT/bridged adapter is also connected
+
+B06-S3 remains **In Progress** until actual command outputs demonstrate peer connectivity and lack of ordinary external routing.
