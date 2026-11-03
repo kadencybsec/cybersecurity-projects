@@ -66,3 +66,9 @@ The installer screenshot confirms the **VMware virtual NVMe disk is 25.000 GB**.
 The user-provided Ubuntu Server **Storage configuration** screenshot confirms the **25.000 GB VMware Virtual NVMe Disk**, with a **20.000 GB ext4 root logical volume** mounted at `/`, **2.000 GB ext4** mounted at `/boot`, and **1.049 GB FAT32** mounted at `/boot/efi`. The `ubuntu-vg` volume group shows **1.945 GB remaining free space**. Ubuntu Server root logical volume resized to 20 GB as planned.
 
 **Status:** Disk layout verified **before** committing installation. The Ubuntu Server guest has not yet been shown installed or booted. The screenshot was shared in chat; it has not yet been uploaded to the repository.
+
+## Ubuntu Server installer reports completion — 3 November 2026, 18:48
+
+A screenshot of the second Ubuntu Server VM shows the Subiquity installer screen **“Installation complete!”**, with **“Reboot Now”** selected. The visible installation log shows bootloader, package, network, and cloud-init configuration steps, and no obvious error is visible. This confirms the installer reported success, **not yet a successful reboot and login from the installed virtual disk**.
+
+**Next verification:** Reboot; disconnect the `ubuntu-26.04.1-live-server-arm64.iso` virtual CD/DVD if prompted; log in; run `hostname`, `uname -m`, `cat /etc/os-release`, `df -h /` and `ip -br address`. Do not mark B06-S3 complete until the second VM can boot and the two-VM host-only network tests have been conducted. The original screenshot remains in the chat and has not been added to GitHub.
